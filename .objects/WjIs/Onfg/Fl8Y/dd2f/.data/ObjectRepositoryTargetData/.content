@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_h9EW7vKEEOoCVbv18b02w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="1189, 311, 71, 55" DesignTimeScaleFactor="0.9166666865348816" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='menuitem' parentid='yui_3_17_2_1_1737618776624_1586' tag='A' type='' class='dropdown-toggle nav-link ' aaname='                     Mehr                 ' check:innerText='Mehr' /&gt;" Guid="ddb0635d-c0f2-4728-baf8-d8caa7d89a5c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="921bc6a9ae4193852b53ba65864bc82f.png" xmlns="">0Yfln-SrjU0Kxs5W9N8jxvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

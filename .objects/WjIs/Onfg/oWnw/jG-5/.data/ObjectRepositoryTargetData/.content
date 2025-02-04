@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kiJJzCJs90Wd5s2nrZzLrw" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/jG-5kgzR4Umo91ema896CQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="2667b8b0-fdb4-4655-a182-e706f70d8e80" CvTextArea="1210, 508, 131, 13" CvTextArgument="Bearbeiten einschalten" CvType="Text" DesignTimeRectangle="1219, 403, 201, 37" DesignTimeScaleFactor="1.03125" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                         Bearbeiten einschalten                                     ' aria-role='menuitem' class='dropdown-item' parentid='yui_3_17_2_1_1738411656214_93' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                         Bearbeiten einschalten                                     ' aria-role='menuitem' class='dropdown-item' parentid='yui_3_17_2_1_1737984987164_93' tag='A' type='' check:innerText='Bearbeiten einschalten' /&gt;" Guid="ce291ba5-1f3b-4630-baa6-47ed189cede9" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="746b460fb2e4a601daba1a869471324a.png" xmlns="">0wEjZbTENXkWxFihwiHMRcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

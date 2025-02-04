@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="R2RS4GGZXkyoVF3ZEZvf6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/my" CVScreenId="d951e0cd-5c53-4950-8b7a-b3b0e5f5a8e9" CvTextArea="217, 294, 49, 14" CvTextArgument="RPA BA" CvType="Text" DesignTimeRectangle="166, 280, 298, 41" DesignTimeScaleFactor="1.1458333730697632" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='RPA BA ' parentid='dropdownmain-navigation1' tag='A' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl aaname='RPA BA ' parentid='dropdownmain-navigation1' tag='A' type='' class='dropdown-item' check:innerText='RPA BA' /&gt;" Guid="326bcd95-ae93-44f7-9f9d-260fedb2c5ab" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard | Moodle.UP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ad9e141ac934954b5843fe0d7242331b.png" xmlns="">0-aPerlNzzUGAUJyKsjroOQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

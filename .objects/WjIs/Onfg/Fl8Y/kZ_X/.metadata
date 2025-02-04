@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mehr(3)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "kZ_XeJ0SwkmIgY65MxTUWg",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/kZ_XeJ0SwkmIgY65MxTUWg",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-23T13:19:07.441251Z",
+  "Updated": "2025-01-23T13:19:07.441251Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

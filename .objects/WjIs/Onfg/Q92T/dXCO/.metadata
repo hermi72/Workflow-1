@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Anmeldung",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "dXCObbsR6EG-WaPEizbjNQ",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/dXCObbsR6EG-WaPEizbjNQ",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Q92T2gqhWEKp7r2Ym_cntw",
+  "Created": "2025-01-18T23:55:17.9701326Z",
+  "Updated": "2025-01-18T23:55:17.9701326Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

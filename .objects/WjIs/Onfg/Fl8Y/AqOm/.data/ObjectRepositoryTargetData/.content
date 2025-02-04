@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vmR0N5DYlkeb51KxXDkQ5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="644d6230-186b-44f8-b7b1-c7e560e65c19" CvElementArea="1008, 796, 125, 34" CvTextArea="1021, 807, 97, 13" CvTextArgument="Datei hochladen" CvType="Button" DesignTimeRectangle="1009, 799, 122, 31" DesignTimeScaleFactor="0.9166666865348816" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737628422435_2611' tag='BUTTON' type='' class='fp-upload-btn btn-primary btn' aaname='Datei hochladen' check:innerText='Datei hochladen' /&gt;" Guid="3a8201ba-d01d-4a8f-bb29-99e97d726bff" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e840bf50504b45a895f2adcd948ca5ff.png" xmlns="">0ROdHxOncaUi8FcYE5G7qRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

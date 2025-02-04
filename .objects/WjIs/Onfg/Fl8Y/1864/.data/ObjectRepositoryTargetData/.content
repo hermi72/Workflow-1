@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LrE8aIQ3KU-VV1umXzz-Og" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="1694, 170, 177, 40" DesignTimeScaleFactor="1.03125" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='action-menu-toggle-2' tag='A' type='' class='nav-link dropdown-toggle icon-no-margin' aaname='                                                          Philipp HermannP                                                                                       ' check:innerText='Philipp HermannP' /&gt;" Guid="aab98a71-e675-4191-8a22-685f9499895a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="814e4810-a707-4ccd-b91d-d3566518b75c" CvElementArea="1691, 166, 183, 45" CvType="InputBox" DesignTimeRectangle="1697, 181, 110, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Philipp Hermann' parentid='action-menu-toggle-2' tag='SPAN' type='' class='usertext mr-1' check:innerText='Philipp Hermann' /&gt;" Guid="0fd718a5-212b-48ba-a994-b2837340f130" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="883e3015c44bbdb6837a6d10203ccc8e.png" xmlns="">0v2WIrpGkFkKxHPUwiB8sSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

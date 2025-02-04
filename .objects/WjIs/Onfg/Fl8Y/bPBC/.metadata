@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Anhang",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "bPBCG9PhMEqEvHwMhndJFA",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/bPBCG9PhMEqEvHwMhndJFA",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-23T11:32:26.9828256Z",
+  "Updated": "2025-01-23T11:32:26.9828256Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

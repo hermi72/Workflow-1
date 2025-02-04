@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fQC49nYEy0qocEHk_kd7RA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="8d16b547-f243-4070-870e-449e9f112048" CvElementArea="1300, 386, 22, 21" CvTextArea="1263, 389, 38, 16" CvTextArgument="Mehr" CvType="ArrowButton" DesignTimeRectangle="1246, 363, 88, 69" DesignTimeScaleFactor="1.1458333730697632" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                     Mehr                 ' aria-role='menuitem' tag='A' type='' class='dropdown-toggle nav-link ' check:innerText='Mehr' /&gt;" Guid="d98d3ea5-39d0-4ada-a524-94a0118237a8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b42dd42a0f2e0d1f2cf526a33847c5dc.png" xmlns="">0QX6lhAeEL0-E5dNDKAgkjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

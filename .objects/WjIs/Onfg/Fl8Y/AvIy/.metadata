@@ -1,0 +1,13 @@
+﻿{
+  "Name": "A collapssesection3",
+  "Type": "Element",
+  "Id": "AvIyNQn7aE6PuMcFrG6hSw",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/AvIyNQn7aE6PuMcFrG6hSw",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-21T17:25:01.6863371Z",
+  "Updated": "2025-01-21T17:25:01.6863371Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

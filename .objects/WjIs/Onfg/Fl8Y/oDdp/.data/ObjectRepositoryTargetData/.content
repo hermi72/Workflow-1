@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GsXiAKUkS0aid6tTwFo7tg" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/oDdpOjPpbE-ZlzaYSbZx1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="202f5081-c81d-4a6a-be21-e456ba084151" DesignTimeRectangle="1673, 497, 108, 29" DesignTimeScaleFactor="1.03125" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Alles aufklappen' /&gt;" Guid="1d31aa7d-7405-4138-910a-066d2bc03cf6" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cd47e654ce5deeedd5490151e573c580.png" xmlns="">0Eq9rsL4A6kadnyw5uAQ0BA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

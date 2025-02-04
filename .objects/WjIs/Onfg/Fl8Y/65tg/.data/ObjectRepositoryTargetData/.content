@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uFX51XgyvUut8vfGE1xVrQ" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/65tgew3GlES8gMWDLeef5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="450169e6-b7b1-48d6-9e70-f205e6584934" CvTextArea="1672, 502, 109, 18" CvTextArgument="Alles einklappen" CvType="Text" DesignTimeRectangle="1674, 497, 107, 29" DesignTimeScaleFactor="1.03125" ElementType="Text" FullSelectorArgument="&lt;webctrl innertext='Alles einklappen' aaname='Alles einklappen' visibleinnertext='Alles einklappen' /&gt;" FuzzyAccuracy="1" Guid="16941f92-4f09-4210-9135-365ca001a6d6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAG8AAAAhCAYAAADXl/V8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAKdSURBVGhD7ZbNbSMxDIXdjttIGTkFSA3uwMfARfjuoyvwIV0YyCF1aCVS8vBPkscOdkMsHzCHGXFIPn7SYDYp5FYBz7ECnmMFPMcKeI4V8Bwr4DlWwHOsgOdYAc+xAp5jDeB9pteXt7TZf9Z7Klx7veDd9bhLm/dTuuLtX9KoP0vf6eP9LW2P3/We6994eE59eJdDNrNL25dDOuMTot8Ab63+I3jnfYGDhhukRQHvN6gDr8DBE2ebmsMr8DflswYXP70Qf1vbpY+vumCon0fAKF+Ksv51Stt74ut9i1EeWJ580c+zWYv7uOWD2BZD+0H1/bUZtz7xogfJhAeFW7PQoBzwGB40RMyy9WYcVrIupy68YR4TXo4X68v7PB5yk56lh+vxQPrifnWtLHi2zAnylRjZP/E+9oc1dc7lfQMemlwIiyGBBvAAttxhJb42UUxS0z3N8pjwxCZjtZZ4OYQiPjitMuhhLdGPVYPNbeoPY/Xcl7oanpFUGyNNZLF1MFZ2jL4wHt9d7jua5rHgiWGwZzU+/4Tpodrw4GSQusNaWRSwvRmwB+j/zjnxGfFnCh7uGCsp3WkzeNqYEmySkrcTO83zGDz8g5ZDkcOuG4x80vTJ072thzfytxoeSS4Eu/BmZgAPoMhPSl9sKFTTPI/Bg3h4znOrDSgGP4fHZ2fDK3Ordaf+1sIzm6piawN4WQCaNZ6N7fGe/wgIAEKjPOpdq3f2jMdDz2R4ww0IeWQtfjLlDDA/98YPwMzfSngyORd9cQyvDWr55JImmvF69cChBnmehFcEfmvO3vDhyjMpsaoW88Jrt3xnmofNqGjkbyW80J2yNoqQ3tA/r4D3iAKeYwW80LMKeI4V8Bwr4DlWwHOsgOdYAc+xAp5bpfQHQVbvqw6zrDMAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="Selector, Image, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopRight" X="-53" Y="9" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="946de362d61eb62a0b3aad0d76503d89.png" xmlns="">0i9_wibKruEq7VLf9HpRyKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

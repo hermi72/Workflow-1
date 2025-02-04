@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oZmnIVnS00OzQu50xFZZqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="1801, 481, 35, 35" DesignTimeScaleFactor="0.9166666865348816" FuzzySelectorArgument="&lt;webctrl id='action-menu-toggle-7' tag='A' type='' class='btn btn-icon d-flex align-items-center justify-content-center dropdown-toggle icon-no-margin icon fa fa-cog fa-fw' aaname='' /&gt;" Guid="cdbc6245-90a1-4e49-8c9d-bf969438f8ee" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9393ec19-357f-4e5a-8bc7-5a40e54b7c9c" CvElementArea="284, 484, 89, 26" CvTextArea="290, 492, 76, 12" CvTextArgument="Hervorgehoben" CvType="Button" DesignTimeRectangle="286, 488, 85, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737645925861_1596' tag='SPAN' type='' class='badge badge-pill badge-primary order-1' aaname='                                             Hervorgehoben                                         ' check:innerText='Hervorgehoben' /&gt;" Guid="9963c9e1-271d-4942-a2e8-ec26336d00a9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="64e1bb7e538beda0af8a331146635b79.png" xmlns="">0xwyDiScZ20KTW8CIt3gV3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

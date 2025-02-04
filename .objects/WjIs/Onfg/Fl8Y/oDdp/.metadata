@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Alles aufklappen",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oDdpOjPpbE-ZlzaYSbZx1A",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/oDdpOjPpbE-ZlzaYSbZx1A",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-02-03T14:54:34.5759283Z",
+  "Updated": "2025-02-03T14:54:34.5759283Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

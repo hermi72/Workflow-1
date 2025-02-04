@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Philipp HermannP",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FXXIgWcsUkKIZWBVSkpqCQ",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/FXXIgWcsUkKIZWBVSkpqCQ",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-23T11:44:13.409745Z",
+  "Updated": "2025-01-23T11:44:13.409745Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

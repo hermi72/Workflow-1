@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1QjaojZ7kkGyai2WYiRfhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="7010f195-b9ed-4399-976e-289b7cf86460" CvElementArea="1667, 906, 18, 18" CvTextArea="1693, 909, 76, 12" CvTextArgument="Hervorheben" CvType="RadioButton" DesignTimeRectangle="1648, 900, 187, 33" DesignTimeScaleFactor="0.9166666865348816" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737632433039_1621' tag='A' type='' class='dropdown-item editing_highlight menu-action' aaname='                                                                  Hervorheben                         ' check:innerText='Hervorheben' /&gt;" Guid="1cf1b6af-beb7-42e5-a88c-494d112020ef" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7010f195-b9ed-4399-976e-289b7cf86460" CvTextArea="1693, 909, 76, 12" CvTextArgument="Hervorheben" CvType="Text" DesignTimeRectangle="1694, 907, 75, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='actionmenuaction-112' tag='SPAN' type='' class='menu-action-text' aaname='Hervorheben' check:innerText='Hervorheben' /&gt;" Guid="a063da37-f332-4171-90e9-92cd21465ec3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9898c2f0af0747a14c1b6c6f59c250c2.png" xmlns="">0_lPu9nQlw0yDdHBt0N8A-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

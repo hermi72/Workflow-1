@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z8Aoh27LUEqT7oldj_f13A" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/gWdTkpP39kO1uxCSw1WpyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="91, 777, 1745, 68" DesignTimeScaleFactor="1.03125" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='coursecontentcollapse1' tag='BUTTON' type='' class='btn btn-link text-decoration-none section-modchooser section-modchooser-link activity-add d-flex align-items-center p-3 mb-3' aaname='                        Aktivität oder Material anlegen ' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="ec7cc274-fe34-45bd-a5c8-875798e454a0" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="85357f79-ed35-421a-b56e-32ad3e16a546" CvTextArea="156, 803, 201, 17" CvTextArgument="Aktivität oder Material anlegen" CvType="Text" DesignTimeRectangle="157, 800, 201, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='activity-add-text' parentid='coursecontentcollapse1' tag='SPAN' type='' aaname='Aktivität oder Material anlegen' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="9b74e709-e479-4941-ba84-f50f1b1aa2bc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9fc21872a637d34babd6ab77a75517f9.png" xmlns="">0dRoLz-AkyEuZxCobzpx_9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

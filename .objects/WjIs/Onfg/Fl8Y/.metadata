@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Startseite  Moodle.UP",
+  "Type": "Screen",
+  "Id": "Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Onfg73MAD0yYGHdmOyy0LA",
+  "Created": "2025-01-19T11:57:02.2305599Z",
+  "Updated": "2025-01-19T11:57:02.2305599Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

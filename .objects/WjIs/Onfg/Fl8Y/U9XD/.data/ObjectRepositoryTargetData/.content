@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AEA8vkYZOkGWbDg5TTsqqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="b7cf0f85-ef96-4a49-afb9-0edf1dcaa20f" CvTextArea="148, 180, 478, 26" CvTextArgument="Testkurs: Robotic Process Automation" CvType="Text" DesignTimeRectangle="149, 174, 477, 38" DesignTimeScaleFactor="1.03125" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='coursetitle' tag='SPAN' type='' class='' aaname='Testkurs: Robotic Process Automation ' check:innerText='Testkurs: Robotic Process Automation' /&gt;" Guid="53ae47de-222e-4d48-90ff-7fdac016735f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b7cf0f85-ef96-4a49-afb9-0edf1dcaa20f" CvTextArea="1695, 180, 138, 17" CvTextArgument="Philipp Hermann P" CvType="Text" DesignTimeRectangle="1694, 170, 177, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='action-menu-toggle-2' tag='A' type='' class='nav-link dropdown-toggle icon-no-margin' aaname='                                                          Philipp HermannP                                                                                       ' check:innerText='Philipp HermannP' /&gt;" Guid="9ea0f778-f5ff-4e67-be2d-007138a64d0c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="26dd60a1345f1263cb19416a90a42c47.png" xmlns="">0xycC-L1chkSMLc54GtE66w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

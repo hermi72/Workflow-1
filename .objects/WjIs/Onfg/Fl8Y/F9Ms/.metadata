@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Hervorgehoben(3)",
+  "Type": "Element",
+  "Id": "F9MsrQQKukyWydTYskmKiA",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/F9MsrQQKukyWydTYskmKiA",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-27T14:35:13.1978253Z",
+  "Updated": "2025-01-27T14:35:13.1978253Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

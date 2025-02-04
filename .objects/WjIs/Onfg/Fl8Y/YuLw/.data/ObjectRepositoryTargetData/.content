@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UHF9O9_tpUiSOZP5WfjGUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="00e9dee4-1869-4e1f-8568-5ac1c000b4f1" CvTextArea="217, 294, 49, 14" CvTextArgument="RPA BA" CvType="Text" DesignTimeRectangle="166, 280, 298, 41" DesignTimeScaleFactor="1.1458333730697632" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='RPA BA ' parentid='dropdownmain-navigation1' tag='A' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl aaname='RPA BA ' parentid='dropdownmain-navigation1' tag='A' type='' class='dropdown-item' check:innerText='RPA BA' /&gt;" Guid="30d5c85d-9c68-4864-b766-752accb74338" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Kurs: WS2024/25_GEW-B-P01 Einführung in die Geowissenschaften WS2024/25 | Moodle.UP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b8a5be368877fc27ea92f57c3bef419c.png" xmlns="">0bqET9ppA7EOyr_YD89qEAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Testkurs Robotic Proce…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "U9XDSnMTX0-8wnkjbRFaKg",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/U9XDSnMTX0-8wnkjbRFaKg",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-27T14:56:16.8197004Z",
+  "Updated": "2025-01-27T14:56:16.8197004Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

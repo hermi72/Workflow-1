@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YufYDDA4lUipXLnDaU_h1A" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/F9MsrQQKukyWydTYskmKiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" Accuracy="1" BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="101, 544, 17, 17" DesignTimeScaleFactor="1.03125" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737988837542_1597' tag='SPAN' type='' class='collapsed-icon icon-no-margin p-2' aaname='                                                                                                                                               ' /&gt;" Guid="7693823d-cda4-4ab2-928b-c776375e7688" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAADCSURBVDhPY7j59vt/auNhZOjli1f/H3yOXQ4Xxmvo5VOT/juqqP6Xdaz9v/IBdjXYMG5DL86EGKgIxSQYjNvQBwf/5zgiGUqCwfjDlEyDCUYUOQYTNhSESTSYOENBmASDiTcUiM+uzEA1FIh9FzzGUEe0oWd31v43RU5iQGxacfD/WSxqiTKUFANBmKChpBoIwngNJcdAEMZtKHo2JdJAEMZt6Kur/1u8SDcQhPGHKcjgQCOSDARhghFFDqaBod//AwBRHNiZi7ScMgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, Image" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c6259e76-eee2-42dc-b7bb-f66b79d13d3c" CvElementArea="314, 627, 103, 30" CvTextArea="322, 636, 84, 13" CvTextArgument="Hervorgehoben" CvType="Button" DesignTimeRectangle="317, 542, 97, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737988837542_1599' tag='SPAN' type='' class='badge badge-pill badge-primary order-1 ' aaname='                                             Hervorgehoben                                         ' check:innerText='Hervorgehoben' /&gt;" Guid="375b7af8-3bb7-4185-be68-ceab8c4fda7c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b91091fab79e280655739a86da15c8df.png" xmlns="">0k-l344-DbUudpFK5D_e-8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

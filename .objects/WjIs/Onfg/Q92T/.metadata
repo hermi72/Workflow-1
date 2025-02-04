@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Web Anmeldedienst",
+  "Type": "Screen",
+  "Id": "Q92T2gqhWEKp7r2Ym_cntw",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/Q92T2gqhWEKp7r2Ym_cntw",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Onfg73MAD0yYGHdmOyy0LA",
+  "Created": "2025-01-18T23:53:43.1351244Z",
+  "Updated": "2025-01-18T23:53:43.1351244Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

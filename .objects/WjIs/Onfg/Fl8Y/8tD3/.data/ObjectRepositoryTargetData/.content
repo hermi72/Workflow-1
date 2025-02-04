@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gtxqnKv0UkG9r640blRbkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="3e95eeb3-05d5-47f3-b8cc-67177ae384ff" CvElementArea="232, 462, 390, 30" CvType="InputBox" DesignTimeRectangle="236, 469, 364, 19" DesignTimeScaleFactor="1.1458333730697632" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="71a6a33d-3927-4b9a-a313-b0e97ad92765" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3e95eeb3-05d5-47f3-b8cc-67177ae384ff" CvTextArea="155, 470, 71, 12" CvTextArgument="Dateiname:" CvType="Text" DesignTimeRectangle="157, 468, 69, 19" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='Datei&amp;amp;name:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='Datei&amp;amp;name:' check:text='Datei&amp;amp;name:' /&gt;" Guid="dbc54b1d-708b-4f6e-8ece-54a8a28bc2f5" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8ac51843421fe4585385479579cd4690.png" xmlns="">0HcufAbFR3UGPEwCWwbLfiA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

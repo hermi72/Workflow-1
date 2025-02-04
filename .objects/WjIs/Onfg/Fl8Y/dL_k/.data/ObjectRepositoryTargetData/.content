@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hP9p1ppR7UaV6IMWNQHrbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="94, 588, 14, 15" DesignTimeScaleFactor="0.9166666865348816" FuzzySelectorArgument="&lt;webctrl parentid='collapssesection3' tag='I' type='' class='icon fa fa-chevron-down fa-fw ' aaname='' /&gt;" Guid="921e45f5-a0c3-469a-89c8-c194ac5d88ef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAC8SURBVDhPY7j59vt/auBRgwhjWhr06v/unVf/n8UQR8MPrv5feeoVnI9m0Kv/Kyvc/8sqqv7XK9qF27AHu/6nmav+l1Vx/5+zE2IYikGX1+SDDYFhrIbBDIGpU8n/P+c5FhctyrbEbRi6IYqW/xPWY3ERBOMwDI8hIIzFIBDGNExWHYmNZggI4zAIhLEYhsMQEMZjEAijG4bdEBAmYBAIwwzDbQgIE2EQCH8ABvYHLOIITKRBhPFgM+j7fwD6L4jIlCeV6wAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, Image" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target Accuracy="0.59" CVScreenId="1f0a5705-4c7e-4f59-8ced-e7fc65e1cfe1" CvElementArea="284, 583, 89, 25" CvTextArea="290, 591, 75, 12" CvTextArgument="Hervorgehoben" CvType="Button" DesignTimeRectangle="286, 586, 85, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737637869923_1626' tag='SPAN' type='' class='badge badge-pill badge-primary order-1 ' aaname='                                             Hervorgehoben                                         ' check:innerText='Hervorgehoben' /&gt;" Guid="8160ac59-3937-4c77-b301-6c0125b6c74f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFkAAAAZCAYAAABaU4LDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAG6SURBVGhD7ZTBasMwDIb3CnvaXfo2fYQ+Qc897RjoOYdCoKUs7aGgWbbkSLY3Fmi1BCT4oXFl6ddnJ2/dcAPXa+WQDeSQDaQgv398up4sh2wgh2wgh2wgh2wgh2wgh2ygP0PengBgvMKG13ZXOIel7qDzlqLN8RHcPWC/a/9fam7+HDlk0jogH+7hiSLm9bAf6TnE+XhJz1yD8uN+uTcPOkBHKxiYl0CIKGrFoDWGdmYP2bv2Bach+q/y4Q7bRn6al7yNIT+u4nx9rNPSPMiNiE0JeGqUDGSo2ay+LfnQ1F7ug3t4EIKj8mjwaj/37vOByEPE31N9XVPli3WZn3JKb8IL1mxoHmRZiIzIIVScvurmeU8yFsHIGx1yqkHoppV52U+z96AOtOw7eSoPheDn3jSDCqypvVVsCj0Hsjj5aU/rhHkNXzMNgPdOfQrIKk/UbvbWb430GusXNxnXW/lYU+Vn/Qfk8JxMcqDZFuQgvnlyXd1GGrSEHJQGxqBvJ9Woe/8MufzGcn1dI0T2Rz44Yv6LIC9L9QEsWSuCXNzAX27O0rQiyOuVQzaQQzaQQzaQQzZQBdn1Ct3gG4WRd5XRgWplAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-5" Y="2" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a8f6d6f1b8d3ce6d72d04fd0052b07a3.png" xmlns="">0b5XdHKGVLECJMAYkvJqZdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

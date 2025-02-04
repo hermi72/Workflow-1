@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Bearbeiten ausschalten",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "5StqdaQv_k6SItLUe_eqLA",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/5StqdaQv_k6SItLUe_eqLA",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-23T11:43:21.6747365Z",
+  "Updated": "2025-01-23T11:43:21.6747365Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

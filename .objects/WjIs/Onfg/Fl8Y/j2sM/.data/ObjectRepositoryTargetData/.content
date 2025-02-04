@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6lfZMWeuzEmhSj4R0eE_pA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="b2facfae-81f6-4ef8-944b-1ea1e1a7878a" CvElementArea="528, 395, 16, 16" CvType="CheckBox" DesignTimeRectangle="530, 449, 12, 12" DesignTimeScaleFactor="0.9166666865348816" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='id_showdescription' tag='INPUT' type='checkbox' class='form-check-input ' aaname='                     Beschreibung im Kurs zeigen                 ' /&gt;" Guid="74006513-8986-425d-88c7-b86cd0f85d10" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="548, 445, 168, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737628422435_1187' tag='LABEL' type='' class='' aaname='                     Beschreibung im Kurs zeigen                 ' check:innerText='Beschreibung im Kurs zeigen' /&gt;" Guid="1ec7b60e-81b1-4d70-a64b-3e3f41209e41" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ba0a752e93f0e5906228b5b7697a9566.png" xmlns="">0xcGVMoH1L0mEL7G3s9b5qQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

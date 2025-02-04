@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="dAyiJjz4SEKY_jkiAO2ltg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1911, -9, 1938, 1051" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAG0SURBVDhPjVM9SAJxHHW0XBzaixajhnZra4gmrWgpSEiiIaJcAqPICmpoKEJSSigkgr60Dw0X+1zCCEIoaAlqKoKGLFrsXvd+epdeCf3h8X+833uP4+53JkVRYDzUstksLDaHgLyU7++CL2Bg1K8XkFMznpIFb++fqKjvgNnWKiCnZjwlCw6TKVhqHCi3tQnIqRmPFDw8PuE8dSOIxM8QPTiFdzqEygYX/Ct7AnJqnNGj+Zk1pW/v4XRPoNU9qd5TgvYeH5bXE9jcPxGQU9PmOe8EmJWCuqZe/YVpuErf4fI6B3LjnBm9gI9DccgXwPruiXDtLuS86SFn5lfB4HgAG7vHRaFCzhk95CUKgv8oCAr/s2BgdBHhnWRRqJBzRg95UYG1Vv3Wqjg8s4qtvWNE4+eYD0VURPOIiMYZPfQyoxdYapxIHF0IrHXtaOkekwUyqwtEkFPjTPMxoxeUqevaP+KXQZ93AT2eWVTbu1BldwnIqXFGD73MSMHzyyu2Y2dodHrk0Zo7vbI8XFNueQ6KaJzRQy8zzMq/oKi/WibzgaW1mBgm58L5bf851Dijh15mFEXBN0eA1Ac7a043AAAAAElFTkSuQmCC" Selector="&lt;html app='msedge.exe' title='Web Anmeldedienst' /&gt;" Title="Web Anmeldedienst" Url="https://idp.uni-potsdam.de/idp/profile/SAML2/Redirect/SSO?execution=e2s1" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="720cb09db88800f123a6b34d2f44294d.jpg" xmlns="">0FI1aF0yDEUyEgh8NZxXW6w</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

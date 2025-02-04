@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fwclsKV_I0euol2zuGDJGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="694cb8ff-22db-4df6-b425-f51f0b1cdd73" CvElementArea="528, 870, 171, 33" CvTextArea="542, 879, 143, 17" CvTextArgument="Speichern und zum Kurs" CvType="Button" DesignTimeRectangle="530, 873, 168, 30" DesignTimeScaleFactor="0.9166666865348816" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='id_submitbutton2' tag='INPUT' type='submit' class='btn&amp;#xA;                        btn-primary&amp;#xA;                        &amp;#xA;                    &amp;#xA;                    ' aaname='Speichern und zum Kurs' check:text='Speichern und zum Kurs' /&gt;" Guid="02984fc6-09f5-4e16-b83a-b4177d4c79bd" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b880e274b17c9d9620df480faf68cd01.png" xmlns="">0931TqWk8u0aHV-dzjkcI3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UWWCYwELpkmDL7yufxjg6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="1801, 825, 35, 35" DesignTimeScaleFactor="0.9166666865348816" FuzzySelectorArgument="&lt;webctrl id='action-menu-toggle-21' tag='A' type='' class='btn btn-icon d-flex align-items-center justify-content-center dropdown-toggle icon-no-margin icon fa fa-cog fa-fw' aaname='' /&gt;" Guid="1b8e6eaa-9dc4-41d8-847b-2c8c3aeb894e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7a1950ed-1441-40d1-8507-99cccdfd0ebb" CvTextArea="129, 832, 117, 19" CvTextArgument="Abschnitt 4" CvType="Text" DesignTimeRectangle="130, 829, 135, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='             Abschnitt 4                                                    ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='             Abschnitt 4                                                    ' tag='A' type='' class='quickeditlink aalink' check:innerText='Abschnitt 4' /&gt;" Guid="b5f8c0bc-1455-401e-9c6f-9266adfa5498" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8610218d103f47deb977611e43039ba2.png" xmlns="">0g8mpPHZQOUW1Fa15Bpb8pw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

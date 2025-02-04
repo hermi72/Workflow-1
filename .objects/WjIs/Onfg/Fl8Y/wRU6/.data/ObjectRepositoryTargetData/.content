@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zaQKdcMyWUKzaZ73K7reGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" DesignTimeRectangle="530, 393, 359, 29" DesignTimeScaleFactor="0.9166666865348816" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='id_name' tag='INPUT' type='text' class='form-control is-invalid' aaname='                     Name                 ' /&gt;" Guid="d084ed11-61a7-4492-a250-65d0841a1269" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="105, 399, 35, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='id_name_label' tag='LABEL' type='' class='d-inline word-break ' aaname='                     Name                 ' check:innerText='Name' /&gt;" Guid="62515d94-d947-4ad7-86c1-e7a96c24fc7d" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d5c332a2195b06ec094c1ec630ca996.png" xmlns="">05LVWh1t4sU-ERfQh2sJNEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

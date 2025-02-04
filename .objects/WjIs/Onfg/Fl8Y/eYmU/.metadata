@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Ö&ffnen",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "eYmUq6kS5EWYD4pbFn9Ppg",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/eYmUq6kS5EWYD4pbFn9Ppg",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-23T11:47:18.5772364Z",
+  "Updated": "2025-01-23T11:47:18.5772364Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

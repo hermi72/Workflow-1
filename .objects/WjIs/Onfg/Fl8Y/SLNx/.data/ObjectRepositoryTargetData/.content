@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AvrI1KGRVkqz2W1SpesMZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="22fd73d5-7e5f-4283-b20c-879df2a8f417" CvElementArea="131, 52, 1484, 36" CvType="InputBox" DesignTimeRectangle="175, 54, 1298, 33" DesignTimeScaleFactor="1.1458333730697632" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moo*' role='pane' /&gt;&lt;ctrl name='App-Leiste' role='tool bar' /&gt;&lt;ctrl name='Adress- und Suchleiste' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moo*' role='pane' /&gt;&lt;ctrl name='App-Leiste' role='tool bar' /&gt;&lt;ctrl name='Adress- und Suchleiste' role='editable text' automationid='' /&gt;" Guid="a3f19dcc-7886-4cd8-938c-b4ca5336d2be" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moo*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1425394a696dc370771f05b8386b48dd.png" xmlns="">0hlKCMIMFVE2YLkMw_wkR4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F2WcEOs_3E275-wLP2_T7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="10d4ae70-7941-4b11-9704-0164e0cd45b8" CvTextArea="143, 707, 178, 16" CvTextArgument="Aktivität oder Material anlegen" CvType="Text" DesignTimeRectangle="144, 705, 178, 19" DesignTimeScaleFactor="0.9166666865348816" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='activity-add-text' parentid='coursecontentcollapse3' tag='SPAN' type='' aaname='Aktivität oder Material anlegen' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="72ffc1f4-f10a-4eaf-91a8-4052ad2f91c4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="85, 684, 1757, 61" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='coursecontentcollapse3' tag='BUTTON' type='' class='btn btn-link text-decoration-none section-modchooser section-modchooser-link activity-add d-flex align-items-center p-3 mb-3' aaname='                        Aktivität oder Material anlegen ' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="b4d4bcb2-78fb-4ac7-a9b1-25c087cc7ae0" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="717c0cfe7b7198621e780ce7fe44d3b5.png" xmlns="">0dOg9tnT5_EKqOMk4ekr4FA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

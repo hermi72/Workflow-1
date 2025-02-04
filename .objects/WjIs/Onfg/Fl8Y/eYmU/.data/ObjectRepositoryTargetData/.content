@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_U4BuK--QU-A6yC3kW1biw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="caec2b6c-8c12-40d6-8856-d9942c9eb8f7" CvElementArea="634, 495, 103, 31" CvTextArea="663, 503, 43, 14" CvTextArgument="Öffnen" CvType="Button" DesignTimeRectangle="636, 497, 101, 30" DesignTimeScaleFactor="1.1458333730697632" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='Ö&amp;amp;ffnen' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='Ö&amp;amp;ffnen' check:text='Ö&amp;amp;ffnen' /&gt;" Guid="80943c6c-8d0e-4379-a8fa-fc2b27885799" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f1a2dfaeee72bffd2656c2dc5277de57.png" xmlns="">01Q3br7phk0WAXcz-mJWYYQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

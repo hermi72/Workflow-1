@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cJ9Wsjy0m0u2rhY68jKWNg" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/zwKMU_q7t0G2cDXY2PXAlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/my" CVScreenId="c0b743a4-f13c-4c9d-aebc-20a5a148fd6a" CvTextArea="217, 251, 49, 13" CvTextArgument="RPA BA" CvType="Text" DesignTimeRectangle="166, 238, 298, 40" DesignTimeScaleFactor="1.1458333730697632" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='dropdownmain-navigation1' tag='A' idx='1' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='dropdownmain-navigation1' tag='A' type='' class='dropdown-item' aaname='RPA BA ' check:innerText='RPA BA' /&gt;" Guid="fe3858bd-0509-4841-b21f-6068c450a4cb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard | Moodle.UP' /&gt;&lt;webctrl uipath-html-title='Testkurs: Robotic Process Automation ' visibleinnertext='RPA BA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="aab0448c105040454b3fc99999330f1b.png" xmlns="">0eIHQOMv4AkyDSMfVPEV9Tw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

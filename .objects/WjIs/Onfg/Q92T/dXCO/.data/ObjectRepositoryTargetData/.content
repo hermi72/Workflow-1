@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gkcNRIbvE0WRTx-tHbh9Sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="idp.uni-potsdam.de/idp/profile/SAML2/Redirect/SSO" CVScreenId="bb95a412-59eb-474f-9aac-18f857b73264" CvElementArea="892, 616, 150, 55" CvTextArea="910, 633, 110, 24" CvTextArgument="Anmeldung" CvType="Button" DesignTimeRectangle="893, 618, 147, 52" DesignTimeScaleFactor="1.1458333730697632" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='loginbutton form-button' aaname='Anmeldung' check:innerText='Anmeldung' /&gt;" Guid="850aa1e3-1d19-40a0-a45d-13b41280ca0f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web Anmeldedienst' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4c57e320a7d43a71e46fb61fdd961d97.png" xmlns="">0Dy79IKb3aEey5Tt41FVm-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

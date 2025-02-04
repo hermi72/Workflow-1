@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HRKmxab0X02PDfTEQzq0LA" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/AEmMIUVV2EGj7THxoTgNHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="f0378c23-c234-47f2-b83c-140690a02987" CvElementArea="1638, 731, 20, 20" CvTextArea="1667, 735, 85, 13" CvTextArgument="Hervorheben" CvType="RadioButton" DesignTimeRectangle="1616, 533, 210, 37" DesignTimeScaleFactor="1.03125" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1738065225759_1635' tag='A' type='' class='dropdown-item editing_highlight menu-action' aaname='                                                                  Hervorheben                         ' check:innerText='Hervorheben' /&gt;" Guid="621675ca-ace9-43fb-9731-83908d9b3c42" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="616dbf00da9fabde68a4df3e705d7a8d.png" xmlns="">0RRwG6wXBsESfreXo_OFACg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Meine Kurse",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "2wZ8aswWJEa388gRXp1v7A",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/2wZ8aswWJEa388gRXp1v7A",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-19T12:00:34.2280585Z",
+  "Updated": "2025-01-19T12:00:34.2280585Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

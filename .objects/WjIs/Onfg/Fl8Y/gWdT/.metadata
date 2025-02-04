@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Aktivität oder Material…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "gWdTkpP39kO1uxCSw1WpyA",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/gWdTkpP39kO1uxCSw1WpyA",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-23T08:04:11.2770779Z",
+  "Updated": "2025-01-23T08:04:11.2770779Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

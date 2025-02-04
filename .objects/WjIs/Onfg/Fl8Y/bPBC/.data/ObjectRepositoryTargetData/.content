@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TVLlTHFFmEuWjM3Myvxx3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="825114b2-124c-4dd8-a758-baef1331f8b4" CvTextArea="816, 520, 232, 16" CvTextArgument="Datei auswählen Keine Datei ausgewählt" CvType="Text" DesignTimeRectangle="811, 517, 237, 21" DesignTimeScaleFactor="0.9166666865348816" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737628422435_2561' tag='INPUT' type='file' class='' aaname='Anhang' /&gt;" Guid="84dda0c8-0859-4595-b3d2-3f21e6feddda" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="825114b2-124c-4dd8-a758-baef1331f8b4" CvTextArea="796, 494, 46, 16" CvTextArgument="Anhang" CvType="Text" DesignTimeRectangle="797, 493, 45, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737628422435_2560' tag='LABEL' type='' class='' aaname='Anhang' check:innerText='Anhang' /&gt;" Guid="76078bc3-2ba5-4a8c-a35e-86ccda00d91b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="380045f387f52cfb1c29ae7762997df3.png" xmlns="">02dWvuVDCOUaiEG0rLEe2qg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VkXWxliipke98X4lxo1Tlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="9574fc7f-fdae-44d1-abe8-3ca10a4ff634" CvElementArea="531, 279, 1313, 98" CvType="InputBox" DesignTimeRectangle="530, 280, 1313, 99" DesignTimeScaleFactor="0.9166666865348816" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='id_introeditoreditable' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='id_introeditoreditable' tag='DIV' type='' class='editor_atto_content form-control' aaname='' /&gt;" Guid="bd4b0850-7aae-4cc5-9854-41a625b78c96" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9574fc7f-fdae-44d1-abe8-3ca10a4ff634" CvTextArea="105, 242, 79, 16" CvTextArgument="Beschreibung" CvType="Text" DesignTimeRectangle="105, 239, 79, 133" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='id_introeditor_label' tag='LABEL' type='' class='d-inline word-break ' aaname='                     Beschreibung                 ' check:innerText='Beschreibung' /&gt;" Guid="db33b4a8-76fd-4644-b102-43d19dbc8d5e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="237b23c431dfa89ef51243fd3ea2893f.png" xmlns="">00suoirlnbUmax4vksBtXUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

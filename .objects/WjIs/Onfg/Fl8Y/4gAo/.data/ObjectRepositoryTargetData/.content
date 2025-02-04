@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EYF6Or6XuUSsFy2TH4Yuxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="idp.uni-potsdam.de/idp/profile/SAML2/Redirect/SSO" DesignTimeRectangle="423, 502, 401, 44" DesignTimeScaleFactor="1.1458333730697632" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='uname' placeholder='Benutzername' aaname='' /&gt;" Guid="b57e16cb-b4cf-422f-9eec-3ae70a9476f4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web Anmeldedienst' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="96a3b0cf-0c63-4ed3-bb0e-fb0889ba19e8" CvTextArea="835, 515, 122, 17" CvTextArgument="@uni- potsdam.de" CvType="Text" DesignTimeRectangle="824, 502, 216, 44" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='login' tag='SPAN' type='' class='up-mail' aaname='@uni-potsdam.de' check:innerText='@uni-potsdam.de' /&gt;" Guid="2d373c29-0843-4ccd-a47b-69acc8a616ad" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="73bfbd5ff6166aec7adae235ecc0122c.png" xmlns="">0pSEY18-4l0OZA4mrzaELew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

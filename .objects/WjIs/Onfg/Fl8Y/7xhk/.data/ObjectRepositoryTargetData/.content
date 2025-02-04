@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6zdo2s6K4UGRQUubVzrX3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="1789, 389, 39, 39" DesignTimeScaleFactor="1.03125" FuzzySelectorArgument="&lt;webctrl id='action-menu-toggle-7' tag='A' type='' class='btn btn-icon d-flex align-items-center justify-content-center dropdown-toggle icon-no-margin icon fa fa-cog fa-fw' aaname='' /&gt;" Guid="91cbcf2a-23de-4531-9de1-2d912bb3f92d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0369606d-ebbd-4563-be47-ba4e63f6b2eb" CvElementArea="315, 394, 102, 29" CvTextArea="322, 403, 84, 13" CvTextArgument="Hervorgehoben" CvType="Button" DesignTimeRectangle="317, 396, 97, 24" ElementType="Text" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl parentid='section-1' tag='SPAN' type='' class='badge badge-pill badge-primary order-1 ' aaname='                                             Hervorgehoben                                         ' check:innerText='Hervorgehoben' /&gt;" Guid="c7fc0835-2518-4251-9853-06dfc831a7fe" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3753d4bb2df09199e6f364c565328555.png" xmlns="">0Jcyp3hoLy0CtzRPrWahJaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

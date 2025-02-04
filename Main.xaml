@@ -1,0 +1,1260 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Core.Activities.Storage</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Security.Authentication.ExtendedProtection</x:String>
+      <x:String>System.Timers</x:String>
+      <x:String>System.ComponentModel.Design</x:String>
+      <x:String>System.Xml.Schema</x:String>
+      <x:String>System.Xml.Xsl</x:String>
+      <x:String>System.Xml.Xsl.Runtime</x:String>
+      <x:String>System.Xml.XPath</x:String>
+      <x:String>System.Xml.Resolvers</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>Microsoft.CodeAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.FlowAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.Text</x:String>
+      <x:String>Microsoft.CodeAnalysis.Diagnostics</x:String>
+      <x:String>Microsoft.CodeAnalysis.Diagnostics.Telemetry</x:String>
+      <x:String>Microsoft.CodeAnalysis.Operations</x:String>
+      <x:String>Microsoft.CodeAnalysis.Emit</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic.Syntax</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualStudio.Validation</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Net.Security</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xml.XPath.XDocument</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.Features</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311.7090909090912,14795.345454545455" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="Kursmaterial hochgeladen" Name="strHochgeladen" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Startseite  Moodle.UP" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1021.9636363636364,14604.218181818183" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="987.9272727272728,14354.618181818183" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Default="phermann" Name="strUserName" />
+              <Variable x:TypeArguments="x:String" Name="strFileName" />
+              <Variable x:TypeArguments="x:String" Name="strAnswer" />
+              <Variable x:TypeArguments="x:String" Default="C:\Users\DE-PHermann\OneDrive - McDonalds Corp\Desktop\RPA BA Kurs\" Name="strPath" />
+              <Variable x:TypeArguments="x:String" Default=".pdf" Name="strAddPDF" />
+              <Variable x:TypeArguments="s:String[]" Name="FileList" />
+              <Variable x:TypeArguments="x:Object" Name="elementPresent" />
+              <Variable x:TypeArguments="x:String" Name="strAnswer2" />
+              <Variable x:TypeArguments="x:String" Name="str_LatestFilePath" />
+              <Variable x:TypeArguments="x:String" Name="strLatestFileName" />
+              <Variable x:TypeArguments="x:String" Default="Abschnitt 3" Name="strSectionNumber" />
+              <Variable x:TypeArguments="x:String" Name="strSection" />
+              <Variable x:TypeArguments="x:String" Default="section-1" Name="strMenuToggle" />
+              <Variable x:TypeArguments="x:Boolean" Name="strElementExtists" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="953.8909090909092,2064" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+              <TryCatch.Try>
+                <Sequence DisplayName="Versuchen" sap:VirtualizedContainerService.HintSize="416.2909090909091,1533.3818181818183" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,226.03636363636366" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de" CVScreenId="29e501f9-87a0-4ea4-8960-4b1b9cda3192" ContentHash="tU_723rl0USJCBNoBrfKOA" CvElementArea="1775, 121, 79, 39" CvTextArea="1794, 132, 42, 19" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1778, 124, 74, 34" DesignTimeScaleFactor="1.1458333730697632" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Login' parentid='header2' tag='A' type='' class='btn-login d-inline-block' check:innerText='Login' /&gt;" Guid="1138d85b-f5ce-4522-af7a-3af3d7c248c3" InformativeScreenshot="f3f32a289a0b680250e0431532eec9d3.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/D5Tu8w8THEOyWuH2s0e4ZA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Startseite | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,287.1272727272727" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Text="[strUserName]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="idp.uni-potsdam.de/idp/profile/SAML2/Redirect/SSO" ContentHash="EYF6Or6XuUSsFy2TH4Yuxg" DesignTimeRectangle="423, 502, 401, 44" DesignTimeScaleFactor="1.1458333730697632" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='uname' placeholder='Benutzername' aaname='' /&gt;" Guid="b57e16cb-b4cf-422f-9eec-3ae70a9476f4" InformativeScreenshot="73bfbd5ff6166aec7adae235ecc0122c.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/4gAoIZ2rR0O1Um68c-7sSQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web Anmeldedienst' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="96a3b0cf-0c63-4ed3-bb0e-fb0889ba19e8" CvTextArea="835, 515, 122, 17" CvTextArgument="@uni- potsdam.de" CvType="Text" DesignTimeRectangle="824, 502, 216, 44" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='login' tag='SPAN' type='' class='up-mail' aaname='@uni-potsdam.de' check:innerText='@uni-potsdam.de' /&gt;" Guid="2d373c29-0843-4ccd-a47b-69acc8a616ad" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'email(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,291.4909090909091" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Text="Philminator99" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="idp.uni-potsdam.de/idp/profile/SAML2/Redirect/SSO" CVScreenId="bb95a412-59eb-474f-9aac-18f857b73264" ContentHash="gSYb68ZuZ068t6AOIBOYqQ" CvTextArea="435, 572, 61, 13" CvTextArgument="Passwort" CvType="Text" DesignTimeRectangle="423, 557, 617, 44" DesignTimeScaleFactor="1.1458333730697632" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='pewe' placeholder='Passwort' aaname='' /&gt;" Guid="d4c21373-1cb0-431f-84f0-b0d7b6276d94" InformativeScreenshot="0ba4267966b9792d06d734a34b916183.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/3bqa2UJ-SUiGtdxnKaYxDA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web Anmeldedienst' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="bb95a412-59eb-474f-9aac-18f857b73264" CvTextArea="835, 515, 122, 17" CvTextArgument="@uni- potsdam.de" CvType="Text" DesignTimeRectangle="824, 502, 216, 44" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='login' tag='SPAN' type='' class='up-mail' aaname='@uni-potsdam.de' check:innerText='@uni-potsdam.de' /&gt;" Guid="d1b1b213-ab8c-48ba-8e6c-d085e174a685" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Anmeldung'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,226.03636363636366" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="idp.uni-potsdam.de/idp/profile/SAML2/Redirect/SSO" CVScreenId="b750215f-2999-4efb-a784-0c85adccc4a0" ContentHash="JefVoUdxkUi5nBCspd07FA" CvElementArea="892, 501, 151, 55" CvTextArea="911, 518, 108, 22" CvTextArgument="Anmeldung" CvType="Button" DesignTimeRectangle="893, 503, 147, 52" DesignTimeScaleFactor="1.1458333730697632" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='loginbutton form-button' aaname='Anmeldung' check:innerText='Anmeldung' /&gt;" Guid="7750ecae-03fb-4afc-8b16-957708194caa" InformativeScreenshot="74fa97b9cf278ad5f342dc6da88c5c54.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/YDHVvkhBK0GQzUocUhuTGQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web Anmeldedienst' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Meine Kurse(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,226.03636363636366" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/my" CVScreenId="de646cad-e2c3-45c8-9c0a-d10062663f3a" ContentHash="CxO9ZnjIek2espEyBchDKg" CvTextArea="216, 208, 85, 14" CvTextArgument="Meine Kurse" CvType="Text" DesignTimeRectangle="165, 191, 157, 48" DesignTimeScaleFactor="1.1458333730697632" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='main-navigation1' tag='A' type='' class='nav-link dropdown-toggle my-auto' aaname='Meine Kurse' check:innerText='Meine Kurse' /&gt;" Guid="e3b11d18-7fc7-4ab6-9d78-9720aa9c6f4c" InformativeScreenshot="7114b738a3de18bdd08ecab8394bedf4.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/rySTEwJz_0GiYwGyzRaNpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'RPA BA(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,216.43636363636364" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/my" CVScreenId="d951e0cd-5c53-4950-8b7a-b3b0e5f5a8e9" ContentHash="R2RS4GGZXkyoVF3ZEZvf6g" CvTextArea="217, 294, 49, 14" CvTextArgument="RPA BA" CvType="Text" DesignTimeRectangle="166, 280, 298, 41" DesignTimeScaleFactor="1.1458333730697632" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='RPA BA ' parentid='dropdownmain-navigation1' tag='A' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl aaname='RPA BA ' parentid='dropdownmain-navigation1' tag='A' type='' class='dropdown-item' check:innerText='RPA BA' /&gt;" Guid="326bcd95-ae93-44f7-9f9d-260fedb2c5ab" InformativeScreenshot="ad9e141ac934954b5843fe0d7242331b.png" IsResponsive="True" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/SWGvewnx8UeSQXgs7z9LQg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard | Moodle.UP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416.2909090909091,337.74545454545455" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Default="https://moodle2.uni-potsdam.de/course/view.php?id=44019" Name="strRPACourse" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'httpsmoodle2.uni-pot…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,277.52727272727276" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="HardwareEvents" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Text="[strRPACourse + &quot;[k(Enter)]&quot;]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="22fd73d5-7e5f-4283-b20c-879df2a8f417" ContentHash="AvrI1KGRVkqz2W1SpesMZQ" CvElementArea="131, 52, 1484, 36" CvType="InputBox" DesignTimeRectangle="175, 54, 1298, 33" DesignTimeScaleFactor="1.1458333730697632" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moo*' role='pane' /&gt;&lt;ctrl name='App-Leiste' role='tool bar' /&gt;&lt;ctrl name='Adress- und Suchleiste' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moo*' role='pane' /&gt;&lt;ctrl name='App-Leiste' role='tool bar' /&gt;&lt;ctrl name='Adress- und Suchleiste' role='editable text' automationid='' /&gt;" Guid="a3f19dcc-7886-4cd8-938c-b4ca5336d2be" InformativeScreenshot="1425394a696dc370771f05b8386b48dd.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/SLNxp3MHckGgegetuXhhUA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moo*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                    </Sequence>
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+              <TryCatch.Finally>
+                <Sequence DisplayName="Endlich" sap:VirtualizedContainerService.HintSize="416.2909090909091,25.309090909090912" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </TryCatch.Finally>
+            </TryCatch>
+            <ui:UiElementExists DisplayName="&quot;Alles einklappen&quot; - Vorhanden" Exists="[strElementExtists]" sap:VirtualizedContainerService.HintSize="953.8909090909092,139.63636363636365" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7d0cd252-c1a1-4411-af88-045eaf43c805" InformativeScreenshot="9b09c09c06965506fae21b08b2173bc7" Selector="&lt;html app='msedge.exe' /&gt;&lt;webctrl tag='SPAN' innertext='Alles einklappen' aaname='Alles einklappen' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+            </ui:UiElementExists>
+            <If Condition="[strElementExtists]" sap:VirtualizedContainerService.HintSize="953.8909090909092,1298.618181818182" sap2010:WorkflowViewState.IdRef="If_7">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416.2909090909091,692.9454545454546" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Alles einklappen'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,226.03636363636366" sap2010:WorkflowViewState.IdRef="NClick_80" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="4a46639b-b6d3-4773-a64e-4eca3592e406" ContentHash="PBYt4BtN8U6XIvKxJmJiuA" CvTextArea="1719, 502, 109, 18" CvTextArgument="Alles einklappen" CvType="Text" DesignTimeRectangle="1721, 497, 107, 29" DesignTimeScaleFactor="1.03125" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1738243311771_1606' tag='SPAN' type='' class='collapseall text-nowrap' /&gt;" Guid="cf2c7fc9-c2b1-4dd9-ac5d-f3ce5192a1ba" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAG8AAAAhCAYAAADXl/V8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAKdSURBVGhD7ZbNbSMxDIXdjttIGTkFSA3uwMfARfjuoyvwIV0YyCF1aCVS8vBPkscOdkMsHzCHGXFIPn7SYDYp5FYBz7ECnmMFPMcKeI4V8Bwr4DlWwHOsgOdYAc+xAp5jDeB9pteXt7TZf9Z7Klx7veDd9bhLm/dTuuLtX9KoP0vf6eP9LW2P3/We6994eE59eJdDNrNL25dDOuMTot8Ab63+I3jnfYGDhhukRQHvN6gDr8DBE2ebmsMr8DflswYXP70Qf1vbpY+vumCon0fAKF+Ksv51Stt74ut9i1EeWJ580c+zWYv7uOWD2BZD+0H1/bUZtz7xogfJhAeFW7PQoBzwGB40RMyy9WYcVrIupy68YR4TXo4X68v7PB5yk56lh+vxQPrifnWtLHi2zAnylRjZP/E+9oc1dc7lfQMemlwIiyGBBvAAttxhJb42UUxS0z3N8pjwxCZjtZZ4OYQiPjitMuhhLdGPVYPNbeoPY/Xcl7oanpFUGyNNZLF1MFZ2jL4wHt9d7jua5rHgiWGwZzU+/4Tpodrw4GSQusNaWRSwvRmwB+j/zjnxGfFnCh7uGCsp3WkzeNqYEmySkrcTO83zGDz8g5ZDkcOuG4x80vTJ072thzfytxoeSS4Eu/BmZgAPoMhPSl9sKFTTPI/Bg3h4znOrDSgGP4fHZ2fDK3Ordaf+1sIzm6piawN4WQCaNZ6N7fGe/wgIAEKjPOpdq3f2jMdDz2R4ww0IeWQtfjLlDDA/98YPwMzfSngyORd9cQyvDWr55JImmvF69cChBnmehFcEfmvO3vDhyjMpsaoW88Jrt3xnmofNqGjkbyW80J2yNoqQ3tA/r4D3iAKeYwW80LMKeI4V8Bwr4DlWwHOsgOdYAc+xAp5bpfQHQVbvqw6zrDMAAAAASUVORK5CYII=" InformativeScreenshot="4f3c04e8f227506897c0b986b116d12f.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/aC8rv8kxRk2I2VH_3s5j2A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Hervorgehoben'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,190.25454545454548" sap2010:WorkflowViewState.IdRef="NClick_81" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable Accuracy="1" BrowserURL="moodle2.uni-potsdam.de/course/view.php" ContentHash="YufYDDA4lUipXLnDaU_h1A" DesignTimeRectangle="101, 544, 17, 17" DesignTimeScaleFactor="1.03125" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737988837542_1597' tag='SPAN' type='' class='collapsed-icon icon-no-margin p-2' aaname='                                                                                                                                               ' /&gt;" Guid="7693823d-cda4-4ab2-928b-c776375e7688" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAADCSURBVDhPY7j59vt/auNhZOjli1f/H3yOXQ4Xxmvo5VOT/juqqP6Xdaz9v/IBdjXYMG5DL86EGKgIxSQYjNvQBwf/5zgiGUqCwfjDlEyDCUYUOQYTNhSESTSYOENBmASDiTcUiM+uzEA1FIh9FzzGUEe0oWd31v43RU5iQGxacfD/WSxqiTKUFANBmKChpBoIwngNJcdAEMZtKHo2JdJAEMZt6Kur/1u8SDcQhPGHKcjgQCOSDARhghFFDqaBod//AwBRHNiZi7ScMgAAAABJRU5ErkJggg==" InformativeScreenshot="b91091fab79e280655739a86da15c8df.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/F9MsrQQKukyWydTYskmKiA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, Image" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="c6259e76-eee2-42dc-b7bb-f66b79d13d3c" CvElementArea="314, 627, 103, 30" CvTextArea="322, 636, 84, 13" CvTextArgument="Hervorgehoben" CvType="Button" DesignTimeRectangle="317, 542, 97, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737988837542_1599' tag='SPAN' type='' class='badge badge-pill badge-primary order-1 ' aaname='                                             Hervorgehoben                                         ' check:innerText='Hervorgehoben' /&gt;" Guid="375b7af8-3bb7-4185-be68-ceab8c4fda7c" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mehr(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,216.43636363636364" sap2010:WorkflowViewState.IdRef="NClick_84" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" ContentHash="_h9EW7vKEEOoCVbv18b02w" DesignTimeRectangle="1189, 311, 71, 55" DesignTimeScaleFactor="0.9166666865348816" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='menuitem' parentid='yui_3_17_2_1_1737618776624_1586' tag='A' type='' class='dropdown-toggle nav-link ' aaname='                     Mehr                 ' check:innerText='Mehr' /&gt;" Guid="ddb0635d-c0f2-4728-baf8-d8caa7d89a5c" InformativeScreenshot="921bc6a9ae4193852b53ba65864bc82f.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/dd2ffOxCyEeMic_NSgl45Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416.2909090909091,466.90909090909093" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Hervorgehoben'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,190.25454545454548" sap2010:WorkflowViewState.IdRef="NClick_82" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable Accuracy="1" BrowserURL="moodle2.uni-potsdam.de/course/view.php" ContentHash="YufYDDA4lUipXLnDaU_h1A" DesignTimeRectangle="101, 544, 17, 17" DesignTimeScaleFactor="1.03125" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737988837542_1597' tag='SPAN' type='' class='collapsed-icon icon-no-margin p-2' aaname='                                                                                                                                               ' /&gt;" Guid="7693823d-cda4-4ab2-928b-c776375e7688" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAADCSURBVDhPY7j59vt/auNhZOjli1f/H3yOXQ4Xxmvo5VOT/juqqP6Xdaz9v/IBdjXYMG5DL86EGKgIxSQYjNvQBwf/5zgiGUqCwfjDlEyDCUYUOQYTNhSESTSYOENBmASDiTcUiM+uzEA1FIh9FzzGUEe0oWd31v43RU5iQGxacfD/WSxqiTKUFANBmKChpBoIwngNJcdAEMZtKHo2JdJAEMZt6Kur/1u8SDcQhPGHKcjgQCOSDARhghFFDqaBod//AwBRHNiZi7ScMgAAAABJRU5ErkJggg==" InformativeScreenshot="b91091fab79e280655739a86da15c8df.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/F9MsrQQKukyWydTYskmKiA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, Image" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="c6259e76-eee2-42dc-b7bb-f66b79d13d3c" CvElementArea="314, 627, 103, 30" CvTextArea="322, 636, 84, 13" CvTextArgument="Hervorgehoben" CvType="Button" DesignTimeRectangle="317, 542, 97, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737988837542_1599' tag='SPAN' type='' class='badge badge-pill badge-primary order-1 ' aaname='                                             Hervorgehoben                                         ' check:innerText='Hervorgehoben' /&gt;" Guid="375b7af8-3bb7-4185-be68-ceab8c4fda7c" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mehr(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,216.43636363636364" sap2010:WorkflowViewState.IdRef="NClick_83" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" ContentHash="_h9EW7vKEEOoCVbv18b02w" DesignTimeRectangle="1189, 311, 71, 55" DesignTimeScaleFactor="0.9166666865348816" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='menuitem' parentid='yui_3_17_2_1_1737618776624_1586' tag='A' type='' class='dropdown-toggle nav-link ' aaname='                     Mehr                 ' check:innerText='Mehr' /&gt;" Guid="ddb0635d-c0f2-4728-baf8-d8caa7d89a5c" InformativeScreenshot="921bc6a9ae4193852b53ba65864bc82f.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/dd2ffOxCyEeMic_NSgl45Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NCheckState DisplayName="Check App State 'Bearbeiten einschalten'" sap:VirtualizedContainerService.HintSize="953.8909090909092,930.3272727272728" sap2010:WorkflowViewState.IdRef="NCheckState_1" IsLoose="True" Timeout="1" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Ziel wird angezeigt" sap:VirtualizedContainerService.HintSize="450.32727272727277,678.9818181818182" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Bearbeiten einschalten'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416.2909090909091,226.03636363636366" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="e751e975-4004-4231-b2b0-b7a834147d8b" ContentHash="AuutOof4KUyksk9T3QnNrg" CvTextArea="1272, 618, 163, 14" CvTextArgument="Bearbeiten einschalten" CvType="Text" DesignTimeRectangle="1190, 499, 179, 33" DesignTimeScaleFactor="0.9166666865348816" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                         Bearbeiten einschalten                                     ' aria-role='menuitem' class='dropdown-item' parentid='yui_3_17_2_1_1737473578287_93' tag='A' type='' check:innerText='Bearbeiten einschalten' /&gt;" Guid="714353a8-8bb7-4e6c-86b5-3290d95a6565" InformativeScreenshot="81275db03066bdfc4dbaebbe4365ed7b.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/aQZlT4BXUUiY_CNdPSP3Lg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416.2909090909091,171.05454545454546" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="2" Version="V4" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Aktivität oder Material…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416.2909090909091,219.05454545454546" sap2010:WorkflowViewState.IdRef="NClick_45" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" ContentHash="Z8Aoh27LUEqT7oldj_f13A" DesignTimeRectangle="91, 777, 1745, 68" DesignTimeScaleFactor="1.03125" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='coursecontentcollapse1' tag='BUTTON' type='' class='btn btn-link text-decoration-none section-modchooser section-modchooser-link activity-add d-flex align-items-center p-3 mb-3' aaname='                        Aktivität oder Material anlegen ' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="ec7cc274-fe34-45bd-a5c8-875798e454a0" InformativeScreenshot="9fc21872a637d34babd6ab77a75517f9.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/gWdTkpP39kO1uxCSw1WpyA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="85357f79-ed35-421a-b56e-32ad3e16a546" CvTextArea="156, 803, 201, 17" CvTextArgument="Aktivität oder Material anlegen" CvType="Text" DesignTimeRectangle="157, 800, 201, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='activity-add-text' parentid='coursecontentcollapse1' tag='SPAN' type='' aaname='Aktivität oder Material anlegen' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="9b74e709-e479-4941-ba84-f50f1b1aa2bc" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Beschriftung 'Beschriftung 'Aktivität oder Material…''" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="10d4ae70-7941-4b11-9704-0164e0cd45b8" ContentHash="F2WcEOs_3E275-wLP2_T7g" CvTextArea="143, 707, 178, 16" CvTextArgument="Aktivität oder Material anlegen" CvType="Text" DesignTimeRectangle="144, 705, 178, 19" DesignTimeScaleFactor="0.9166666865348816" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='activity-add-text' parentid='coursecontentcollapse3' tag='SPAN' type='' aaname='Aktivität oder Material anlegen' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="72ffc1f4-f10a-4eaf-91a8-4052ad2f91c4" InformativeScreenshot="717c0cfe7b7198621e780ce7fe44d3b5.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/2oc1WsjneUO08SWhafNxgw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="85, 684, 1757, 61" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='coursecontentcollapse3' tag='BUTTON' type='' class='btn btn-link text-decoration-none section-modchooser section-modchooser-link activity-add d-flex align-items-center p-3 mb-3' aaname='                        Aktivität oder Material anlegen ' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="b4d4bcb2-78fb-4ac7-a9b1-25c087cc7ae0" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Ziel wird nicht angezeigt" sap:VirtualizedContainerService.HintSize="450.32727272727277,281.89090909090913" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Aktivität oder Material…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416.2909090909091,219.05454545454546" sap2010:WorkflowViewState.IdRef="NClick_46" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" ContentHash="Z8Aoh27LUEqT7oldj_f13A" DesignTimeRectangle="91, 777, 1745, 68" DesignTimeScaleFactor="1.03125" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='coursecontentcollapse1' tag='BUTTON' type='' class='btn btn-link text-decoration-none section-modchooser section-modchooser-link activity-add d-flex align-items-center p-3 mb-3' aaname='                        Aktivität oder Material anlegen ' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="ec7cc274-fe34-45bd-a5c8-875798e454a0" InformativeScreenshot="9fc21872a637d34babd6ab77a75517f9.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/gWdTkpP39kO1uxCSw1WpyA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="85357f79-ed35-421a-b56e-32ad3e16a546" CvTextArea="156, 803, 201, 17" CvTextArgument="Aktivität oder Material anlegen" CvType="Text" DesignTimeRectangle="157, 800, 201, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='activity-add-text' parentid='coursecontentcollapse1' tag='SPAN' type='' aaname='Aktivität oder Material anlegen' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="9b74e709-e479-4941-ba84-f50f1b1aa2bc" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Beschriftung 'Beschriftung 'Aktivität oder Material…''" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="10d4ae70-7941-4b11-9704-0164e0cd45b8" ContentHash="F2WcEOs_3E275-wLP2_T7g" CvTextArea="143, 707, 178, 16" CvTextArgument="Aktivität oder Material anlegen" CvType="Text" DesignTimeRectangle="144, 705, 178, 19" DesignTimeScaleFactor="0.9166666865348816" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='activity-add-text' parentid='coursecontentcollapse3' tag='SPAN' type='' aaname='Aktivität oder Material anlegen' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="72ffc1f4-f10a-4eaf-91a8-4052ad2f91c4" InformativeScreenshot="717c0cfe7b7198621e780ce7fe44d3b5.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/2oc1WsjneUO08SWhafNxgw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="85, 684, 1757, 61" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='coursecontentcollapse3' tag='BUTTON' type='' class='btn btn-link text-decoration-none section-modchooser section-modchooser-link activity-add d-flex align-items-center p-3 mb-3' aaname='                        Aktivität oder Material anlegen ' check:innerText='Aktivität oder Material anlegen' /&gt;" Guid="b4d4bcb2-78fb-4ac7-a9b1-25c087cc7ae0" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="2667b8b0-fdb4-4655-a182-e706f70d8e80" ContentHash="kiJJzCJs90Wd5s2nrZzLrw" CvTextArea="1210, 508, 131, 13" CvTextArgument="Bearbeiten einschalten" CvType="Text" DesignTimeRectangle="1219, 403, 201, 37" DesignTimeScaleFactor="1.03125" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                         Bearbeiten einschalten                                     ' aria-role='menuitem' class='dropdown-item' parentid='yui_3_17_2_1_1738411656214_93' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                         Bearbeiten einschalten                                     ' aria-role='menuitem' class='dropdown-item' parentid='yui_3_17_2_1_1737984987164_93' tag='A' type='' check:innerText='Bearbeiten einschalten' /&gt;" Guid="ce291ba5-1f3b-4630-baa6-47ed189cede9" ImageBase64="" InformativeScreenshot="746b460fb2e4a601daba1a869471324a.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/jG-5kgzR4Umo91ema896CQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Datei'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,226.03636363636366" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="1b136371-3126-4559-a1ef-99e626dd0102" ContentHash="kiVQGxB0Uk2-Uc9-8JzNwg" CvElementArea="1224, 266, 49, 50" CvType="Icon" DesignTimeRectangle="1227, 268, 45, 46" DesignTimeScaleFactor="0.9166666865348816" FuzzySelectorArgument="&lt;webctrl aaname='                                                                                                      ' type='' parentid='all-5' tag='DIV' class='optionicon mt-2 mb-1 mx-auto icon-no-margin modicon_resource activityiconcontainer content' /&gt;" Guid="f412ab08-02a8-4bfd-b9c3-8049e68a5e0c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAyCAYAAAD1CDOyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAALISURBVGhD7Zk9b9RAEIb5W2n4AylDhdKkpkBKQUPDr0gDqaAIRBENIIQC6ZEiEYUCoeikALoLCZ8XQASKjR5zE9m+8Xg/bF9i8UqvTnfemd3X3tmZ8V1yPcB/EecFjYp4c3Ti1nbH7tbWJ7f08MDN3/vgLq++d3O332WffOd3rjOO8U0gWcT+t79u5eVXd+X+MFtsKLHDHj+xiBax9/kku6PawmKJP/yGIkoEd05bRFPEfwiCRLCH2dPaxE2TeXxjxlvEi8HPsyDtiszHvHXwEvH47Q91kq7I/BZqRXAnNMdd03oipgj2ZNdbqIqsoypGTBFdBbEvWY+GShFtH6Ox1I5fVQQJR3NwXlhOiKqI0Ex849mRu7sznlhX48HrY7f89FD1EULWl8eUCGoYzdDi9vD3xNoPNzfTy5V8rTUlIjQWFjdGmd3gyx93dX2kjoF3tr9n4wSpQvKxMSUitBq99uhjZsfT0K4LyyJAihDWKSiI4BzWDCymiAApQiRvFETQqGiDLaaKeDWy7SyyXlAQEdMf+Iq4/uTQDcd642PFkkU5pQoiYjK0rwiN2AB8aNfrKBm8IIIeWBtscZYiWC8oiIgp9mYpgvWCgghtYB1nKQKC/onoxXbqRWD34ohtM9lpTBWhJrs2yw6NqSLUsqPNAlBjqgi1AARtleIaU0RUluIgtClaWPvnrK4pKpOx2AB8aGMsmk1RTHu6Nfg1sQ4HtprPOprtKQg9pWhsnnu8My0Dm5imSE4lgSqiF69sQGhsdMV8LAgqRYCYDN4mJUOXYYrgHI4pCtsg65C8UIYpAlz4V/uCC/8ni4A70fXWYj7rCQi8RQD2ZFfBzjxVMVBGkAhB28evdoxaiBIBSDgx/YdF/JUTmQ+iRQioYbhzodWvEDvs87VQKJJF5MEeplHhjrKn6YHlMOCT7/zOdcb57vk6NCpiNnDuFCB6rFU79EcAAAAAAElFTkSuQmCC" InformativeScreenshot="2cb1726640e2f9283fb790f3a2f02cd8.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/vwA6NlbTsk-A4jDCaQK3vg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1b136371-3126-4559-a1ef-99e626dd0102" CvTextArea="1233, 320, 32, 12" CvTextArgument="Datei" CvType="Text" DesignTimeRectangle="1199, 317, 101, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Datei' parentid='all-5' tag='DIV' type='' class='optionname clamp-2' check:innerText='Datei' /&gt;" Guid="db686bc3-ba38-4820-9b33-e72461b15680" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <Assign sap:VirtualizedContainerService.HintSize="953.8909090909092,116.07272727272728" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="s:String[]">[FileList]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(strPath)]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="953.8909090909092,326.40000000000003" sap2010:WorkflowViewState.IdRef="InputDialog_12" IsPassword="False" Label="Möchten Sie eine Datei auswählen oder das zuletzt hinzugefügte Dokument hochladen?" OptionsString="Datei auswählen;Letztes Dokument hochladen" Title="Dateiauswahl:">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[strAnswer2]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <If Condition="[strAnswer2 = &quot;Letztes Dokument hochladen&quot;]" sap:VirtualizedContainerService.HintSize="953.8909090909092,2041.309090909091" sap2010:WorkflowViewState.IdRef="If_4">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="467.7818181818182,898.909090909091" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign sap:VirtualizedContainerService.HintSize="433.74545454545455,115.2" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[str_LatestFilePath]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[Directory.GetFiles(strPath).OrderByDescending(Function(f) New FileInfo(f).LastWriteTime).FirstOrDefault()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign sap:VirtualizedContainerService.HintSize="433.74545454545455,115.2" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[strLatestFileName]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[System.IO.Path.GetFileName(Directory.GetFiles(strPath).OrderByDescending(Function(f) New FileInfo(f).LastWriteTime).Take(1).First())]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.74545454545455,287.1272727272727" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Text="[strLatestFileName.Split(&quot;.&quot;c)(0)]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" ContentHash="zaQKdcMyWUKzaZ73K7reGQ" DesignTimeRectangle="530, 393, 359, 29" DesignTimeScaleFactor="0.9166666865348816" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='id_name' tag='INPUT' type='text' class='form-control is-invalid' aaname='                     Name                 ' /&gt;" Guid="d084ed11-61a7-4492-a250-65d0841a1269" InformativeScreenshot="7d5c332a2195b06ec094c1ec630ca996.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/wRU6-2Hwzkmd41-UsKaLlQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="105, 399, 35, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='id_name_label' tag='LABEL' type='' class='d-inline word-break ' aaname='                     Name                 ' check:innerText='Name' /&gt;" Guid="62515d94-d947-4ad7-86c1-e7a96c24fc7d" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="433.74545454545455,321.1636363636364" sap2010:WorkflowViewState.IdRef="InputDialog_13" IsPassword="False" Label="Soll eine Beschreibung hinzugefügt werden?" OptionsString="Ja;Nein" Title="Beschreibung">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[strAnswer]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="467.7818181818182,1003.6363636363637" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="433.74545454545455,330.7636363636364" sap2010:WorkflowViewState.IdRef="InputDialog_8" IsPassword="False" Label="Bitte wählen Sie eine Datei aus:" OptionsString="[String.Join(&quot;; &quot;, FileList.Select(Function(f) System.IO.Path.GetFileNameWithoutExtension(f)))]" Title="Dateiauswahl:">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[strFileName]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.74545454545455,291.4909090909091" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Text="[strFileName]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" ContentHash="zaQKdcMyWUKzaZ73K7reGQ" DesignTimeRectangle="530, 393, 359, 29" DesignTimeScaleFactor="0.9166666865348816" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='id_name' tag='INPUT' type='text' class='form-control is-invalid' aaname='                     Name                 ' /&gt;" Guid="d084ed11-61a7-4492-a250-65d0841a1269" InformativeScreenshot="7d5c332a2195b06ec094c1ec630ca996.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/wRU6-2Hwzkmd41-UsKaLlQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="105, 399, 35, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='id_name_label' tag='LABEL' type='' class='d-inline word-break ' aaname='                     Name                 ' check:innerText='Name' /&gt;" Guid="62515d94-d947-4ad7-86c1-e7a96c24fc7d" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="433.74545454545455,321.1636363636364" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Soll eine Beschreibung hinzugefügt werden?" OptionsString="Ja;Nein" Title="Beschreibung">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[strAnswer]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                </Sequence>
+              </If.Else>
+            </If>
+            <If Condition="[strAnswer=&quot;Ja&quot;]" sap:VirtualizedContainerService.HintSize="953.8909090909092,2147.7818181818184" sap2010:WorkflowViewState.IdRef="If_2">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452.0727272727273,1917.3818181818183" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="strDescription" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="418.03636363636366,276.6545454545455" sap2010:WorkflowViewState.IdRef="InputDialog_9" IsPassword="False" Label="Gebe Sie die Beschreibung ein:" Title="Beschreibung">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[strDescription]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[String.IsNullOrWhiteSpace(strDescription.Trim())]" DisplayName="While" sap:VirtualizedContainerService.HintSize="418.03636363636366,459.05454545454546" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+                    <ui:InterruptibleWhile.Body>
+                      <Sequence DisplayName="Text" sap:VirtualizedContainerService.HintSize="416.2909090909091,327.2727272727273" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382.2545454545455,267.05454545454546" sap2010:WorkflowViewState.IdRef="InputDialog_11" IsPassword="False" Label="Beschreibung darf nicht leer sein!" Title="Beschreibung">
+                          <ui:InputDialog.Result>
+                            <OutArgument x:TypeArguments="x:String">[strDescription]</OutArgument>
+                          </ui:InputDialog.Result>
+                        </ui:InputDialog>
+                      </Sequence>
+                    </ui:InterruptibleWhile.Body>
+                  </ui:InterruptibleWhile>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Beschreibung'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="418.03636363636366,291.4909090909091" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Text="[strDescription]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="9574fc7f-fdae-44d1-abe8-3ca10a4ff634" ContentHash="VkXWxliipke98X4lxo1Tlg" CvElementArea="531, 279, 1313, 98" CvType="InputBox" DesignTimeRectangle="530, 280, 1313, 99" DesignTimeScaleFactor="0.9166666865348816" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='id_introeditoreditable' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='id_introeditoreditable' tag='DIV' type='' class='editor_atto_content form-control' aaname='' /&gt;" Guid="bd4b0850-7aae-4cc5-9854-41a625b78c96" InformativeScreenshot="237b23c431dfa89ef51243fd3ea2893f.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/rUb1hG6cG0yY5kMLJFvYaA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="9574fc7f-fdae-44d1-abe8-3ca10a4ff634" CvTextArea="105, 242, 79, 16" CvTextArgument="Beschreibung" CvType="Text" DesignTimeRectangle="105, 239, 79, 133" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='id_introeditor_label' tag='LABEL' type='' class='d-inline word-break ' aaname='                     Beschreibung                 ' check:innerText='Beschreibung' /&gt;" Guid="db33b4a8-76fd-4644-b102-43d19dbc8d5e" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="418.03636363636366,330.7636363636364" sap2010:WorkflowViewState.IdRef="InputDialog_10" IsPassword="False" Label="Soll die Beschreibung im Kurs angezeigt werden?" OptionsString="Ja;Nein" Title="Beschreibung Anzeigen">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[strAnswer]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                  <If Condition="[strAnswer=&quot;Ja&quot;]" sap:VirtualizedContainerService.HintSize="418.03636363636366,499.20000000000005" sap2010:WorkflowViewState.IdRef="If_3">
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416.2909090909091,278.40000000000003" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,218.1818181818182" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="b2facfae-81f6-4ef8-944b-1ea1e1a7878a" ContentHash="6lfZMWeuzEmhSj4R0eE_pA" CvElementArea="528, 395, 16, 16" CvType="CheckBox" DesignTimeRectangle="530, 449, 12, 12" DesignTimeScaleFactor="0.9166666865348816" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='id_showdescription' tag='INPUT' type='checkbox' class='form-check-input ' aaname='                     Beschreibung im Kurs zeigen                 ' /&gt;" Guid="74006513-8986-425d-88c7-b86cd0f85d10" InformativeScreenshot="ba0a752e93f0e5906228b5b7697a9566.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/j2sMlsdGVU2sXfNSGgRe8g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="548, 445, 168, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737628422435_1187' tag='LABEL' type='' class='' aaname='                     Beschreibung im Kurs zeigen                 ' check:innerText='Beschreibung im Kurs zeigen' /&gt;" Guid="1ec7b60e-81b1-4d70-a64b-3e3f41209e41" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416.2909090909091,90.76363636363637" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="452.0727272727273,90.76363636363637" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Bewegen Sie Dateien in …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,227.7818181818182" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="1f289b76-5335-4684-a583-bd6eb502ca40" ContentHash="qvHqQbBDJUCg0Akr7vGGWQ" CvElementArea="1166, 585, 41, 41" CvType="Icon" DesignTimeRectangle="1170, 588, 34, 40" DesignTimeScaleFactor="0.9166666865348816" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737628422435_1779' tag='I' type='' class='fa fa-arrow-circle-o-down fa-3x m-auto' aaname='' /&gt;" Guid="45f57efb-ae70-4179-9131-d2fb4c9ab151" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAsCAYAAAAJpsrIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAOuSURBVFhH7ZjvT9pAGMf3/7/xhRkYYmdqNMVASEldujTDDONscJI0A0FjdM6ZRqJTIYDgJN9d4aq0fa6/3BJf+E2+r+6549O75+6e4x1eqd7AkurlYJMxunc22lYD+3NuX/TQHfGYFEoHNuqgWTUgr8hYeP8h3EsKZM1E83LMO8dTMrDeGbZVhQaIY9lA7bzHBwtXTLAhjqtlZLLEj6VwpmSh88CHFiga7MHG9kaMJUvq5TK+2vw3CIWDDc6grxKD+p1bg1QwoGquy5CkGB+TLcC4eOQ/5pUYbNLBVhhUVkGxegQ7bOc9DHF+YKIoE/1dM7gtYuYEYENYqviLpcoZuhMeGkuP6FgGcqIczVXQ9o1Hgo3aBhapAdjX6SdDHpVCvSNoK8S4zIv6CQ+aKQg2OYGWIzoLptzR8WcFGWnNa2UPZLgwbxUY5zyGKQD22ywRnWTkv4tnylL98Y51WLw9oIGFdWpZiw24KesDs2FQU12w0OcRlBKDMfXrZaJPCds3s3Yv2PkOcoFgtoSXvF2gNGCiSZCqnWmrB8yuFgKBzmxF3cXpwFja7BJpo9TRZW0eMKvkC2KWzei7LS0YbvYg+/tlDTRZ0xwYdaCynRJybbhKDYZf0CV/v1nqzIG1UPQEON6EFeMgTQ92TUzGGvSfkWDE4CNWAN55XSv6+zneRM0X1+0FazLqo9ipkRysqfljEpjnz7PGqBWCcWrbAyZY7yve7GrQgrrsj4th8jqj8jqQY9R6z+gDSgonumMnLeQD8WXU7j1gQFsPVhT+y/VJceHCLv5DoliQvuCUNXnA0NC9QY6XjEBJ8qQouNBqZIx9YtO4E+EFu28gT1yu8u4tDyAkgguFYro0Ifn7sGJBPZw1e8GY2h+JAjHL1n3AAyj54aKgyKRnXtmBW/kEwOgvYV41YYcdti5cJJTgTmaWzeeVCYIxUZvA8eJGPRyO1fjdAf24cGVv01ALKyzp58YmwYRV7HSACprx3qxeTW5haaLHsjK9huZFgzmy2ZKKHg/ZNaxXjiIfrVNNxrCtCuSQ3evWYPMSgzH12fFBPkpcZ2XkFANb345wejV/L17j9MDCllaKfL1ntBZZHYeCOeofVsTPrhc6x84sUckeCeboT8dCPuwgTWqWCvl6yNnIFAtsqknvn/yxkimYOI6xeeKDuRp1sP8pOnc8Zrkoqcn+I0sO9qRH9C9OUKtWoBYKgQdvTtGhft5D88c1+nF2r08vAPu/egNLqjewpHqlYMBfuuUoAEc0C0cAAAAASUVORK5CYII=" InformativeScreenshot="6fc2df1c41cafc11dbf9bcbdd9e8f709.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/pYBQya0dTUCCckysYCSkwg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1f289b76-5335-4684-a583-bd6eb502ca40" CvTextArea="1034, 646, 304, 16" CvTextArgument="Bewegen Sie Dateien in dieses Feld (Drag-and-drop)" CvType="Text" DesignTimeRectangle="530, 556, 1313, 128" FullSelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737628422435_817' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737628422435_1270' tag='DIV' type='' class='fm-empty-container' aaname='                              ' check:innerText='Bewegen Sie Dateien in dieses Feld (Drag-and-drop)' /&gt;" Guid="0b4a6ccf-5430-4e45-bd10-64648b5509ac" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Anhang'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,227.7818181818182" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="825114b2-124c-4dd8-a758-baef1331f8b4" ContentHash="TVLlTHFFmEuWjM3Myvxx3A" CvTextArea="816, 520, 232, 16" CvTextArgument="Datei auswählen Keine Datei ausgewählt" CvType="Text" DesignTimeRectangle="811, 517, 237, 21" DesignTimeScaleFactor="0.9166666865348816" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1737628422435_2561' tag='INPUT' type='file' class='' aaname='Anhang' /&gt;" Guid="84dda0c8-0859-4595-b3d2-3f21e6feddda" InformativeScreenshot="380045f387f52cfb1c29ae7762997df3.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/bPBCG9PhMEqEvHwMhndJFA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="825114b2-124c-4dd8-a758-baef1331f8b4" CvTextArea="796, 494, 46, 16" CvTextArgument="Anhang" CvType="Text" DesignTimeRectangle="797, 493, 45, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737628422435_2560' tag='LABEL' type='' class='' aaname='Anhang' check:innerText='Anhang' /&gt;" Guid="76078bc3-2ba5-4a8c-a35e-86ccda00d91b" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <If Condition="[strAnswer2 = &quot;Letztes Dokument hochladen&quot;]" sap:VirtualizedContainerService.HintSize="953.8909090909092,823.8545454545455" sap2010:WorkflowViewState.IdRef="If_5">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416.2909090909091,342.1090909090909" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Datei&amp;name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,281.89090909090913" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="HardwareEvents" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Text="[str_LatestFilePath]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="3e95eeb3-05d5-47f3-b8cc-67177ae384ff" ContentHash="gtxqnKv0UkG9r640blRbkw" CvElementArea="232, 462, 390, 30" CvType="InputBox" DesignTimeRectangle="236, 469, 364, 19" DesignTimeScaleFactor="1.1458333730697632" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="71a6a33d-3927-4b9a-a313-b0e97ad92765" InformativeScreenshot="8ac51843421fe4585385479579cd4690.png" IsResponsive="True" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/8tD3zrxj10KyqgQhi-E9sQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="3e95eeb3-05d5-47f3-b8cc-67177ae384ff" CvTextArea="155, 470, 71, 12" CvTextArgument="Dateiname:" CvType="Text" DesignTimeRectangle="157, 468, 69, 19" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='Datei&amp;amp;name:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='Datei&amp;amp;name:' check:text='Datei&amp;amp;name:' /&gt;" Guid="dbc54b1d-708b-4f6e-8ece-54a8a28bc2f5" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416.2909090909091,342.1090909090909" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Datei&amp;name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,281.89090909090913" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="HardwareEvents" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Text="[strPath + strFileName + strAddPDF]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="3e95eeb3-05d5-47f3-b8cc-67177ae384ff" ContentHash="gtxqnKv0UkG9r640blRbkw" CvElementArea="232, 462, 390, 30" CvType="InputBox" DesignTimeRectangle="236, 469, 364, 19" DesignTimeScaleFactor="1.1458333730697632" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="71a6a33d-3927-4b9a-a313-b0e97ad92765" InformativeScreenshot="8ac51843421fe4585385479579cd4690.png" IsResponsive="True" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/8tD3zrxj10KyqgQhi-E9sQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="3e95eeb3-05d5-47f3-b8cc-67177ae384ff" CvTextArea="155, 470, 71, 12" CvTextArgument="Dateiname:" CvType="Text" DesignTimeRectangle="157, 468, 69, 19" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='Datei&amp;amp;name:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='Datei&amp;amp;name:' check:text='Datei&amp;amp;name:' /&gt;" Guid="dbc54b1d-708b-4f6e-8ece-54a8a28bc2f5" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ö&amp;ffnen'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,227.7818181818182" sap2010:WorkflowViewState.IdRef="NClick_29" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="caec2b6c-8c12-40d6-8856-d9942c9eb8f7" ContentHash="_U4BuK--QU-A6yC3kW1biw" CvElementArea="634, 495, 103, 31" CvTextArea="663, 503, 43, 14" CvTextArgument="Öffnen" CvType="Button" DesignTimeRectangle="636, 497, 101, 30" DesignTimeScaleFactor="1.1458333730697632" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='Ö&amp;amp;ffnen' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='Ö&amp;amp;ffnen' check:text='Ö&amp;amp;ffnen' /&gt;" Guid="80943c6c-8d0e-4379-a8fa-fc2b27885799" InformativeScreenshot="f1a2dfaeee72bffd2656c2dc5277de57.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/eYmUq6kS5EWYD4pbFn9Ppg" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Datei hochladen'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,227.7818181818182" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="644d6230-186b-44f8-b7b1-c7e560e65c19" ContentHash="vmR0N5DYlkeb51KxXDkQ5A" CvElementArea="1008, 796, 125, 34" CvTextArea="1021, 807, 97, 13" CvTextArgument="Datei hochladen" CvType="Button" DesignTimeRectangle="1009, 799, 122, 31" DesignTimeScaleFactor="0.9166666865348816" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737628422435_2611' tag='BUTTON' type='' class='fp-upload-btn btn-primary btn' aaname='Datei hochladen' check:innerText='Datei hochladen' /&gt;" Guid="3a8201ba-d01d-4a8f-bb29-99e97d726bff" InformativeScreenshot="e840bf50504b45a895f2adcd948ca5ff.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/AqOmcuPJtU-o6pS9IwGdjQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Speichern und zum Kurs'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,227.7818181818182" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/modedit.php" CVScreenId="694cb8ff-22db-4df6-b425-f51f0b1cdd73" ContentHash="fwclsKV_I0euol2zuGDJGQ" CvElementArea="528, 870, 171, 33" CvTextArea="542, 879, 143, 17" CvTextArgument="Speichern und zum Kurs" CvType="Button" DesignTimeRectangle="530, 873, 168, 30" DesignTimeScaleFactor="0.9166666865348816" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='id_submitbutton2' tag='INPUT' type='submit' class='btn&amp;#xA;                        btn-primary&amp;#xA;                        &amp;#xA;                    &amp;#xA;                    ' aaname='Speichern und zum Kurs' check:text='Speichern und zum Kurs' /&gt;" Guid="02984fc6-09f5-4e16-b83a-b4177d4c79bd" InformativeScreenshot="b880e274b17c9d9620df480faf68cd01.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/gEYu4XVmyEubcVf3vbyMEg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Datei wird bearbeitet | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Hervorgehoben'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,227.7818181818182" sap2010:WorkflowViewState.IdRef="NClick_68" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" ContentHash="hP9p1ppR7UaV6IMWNQHrbA" DesignTimeRectangle="94, 588, 14, 15" DesignTimeScaleFactor="0.9166666865348816" FuzzySelectorArgument="&lt;webctrl parentid='collapssesection3' tag='I' type='' class='icon fa fa-chevron-down fa-fw ' aaname='' /&gt;" Guid="921e45f5-a0c3-469a-89c8-c194ac5d88ef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAC8SURBVDhPY7j59vt/auBRgwhjWhr06v/unVf/n8UQR8MPrv5feeoVnI9m0Kv/Kyvc/8sqqv7XK9qF27AHu/6nmav+l1Vx/5+zE2IYikGX1+SDDYFhrIbBDIGpU8n/P+c5FhctyrbEbRi6IYqW/xPWY3ERBOMwDI8hIIzFIBDGNExWHYmNZggI4zAIhLEYhsMQEMZjEAijG4bdEBAmYBAIwwzDbQgIE2EQCH8ABvYHLOIITKRBhPFgM+j7fwD6L4jIlCeV6wAAAABJRU5ErkJggg==" InformativeScreenshot="a8f6d6f1b8d3ce6d72d04fd0052b07a3.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/dL_k5QDxckiGGGT7lWC-9A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, Image" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target Accuracy="0.59" CVScreenId="1f0a5705-4c7e-4f59-8ced-e7fc65e1cfe1" CvElementArea="284, 583, 89, 25" CvTextArea="290, 591, 75, 12" CvTextArgument="Hervorgehoben" CvType="Button" DesignTimeRectangle="286, 586, 85, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1737637869923_1626' tag='SPAN' type='' class='badge badge-pill badge-primary order-1 ' aaname='                                             Hervorgehoben                                         ' check:innerText='Hervorgehoben' /&gt;" Guid="8160ac59-3937-4c77-b301-6c0125b6c74f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFkAAAAZCAYAAABaU4LDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAG6SURBVGhD7ZTBasMwDIb3CnvaXfo2fYQ+Qc897RjoOYdCoKUs7aGgWbbkSLY3Fmi1BCT4oXFl6ddnJ2/dcAPXa+WQDeSQDaQgv398up4sh2wgh2wgh2wgh2wgh2wgh2ygP0PengBgvMKG13ZXOIel7qDzlqLN8RHcPWC/a/9fam7+HDlk0jogH+7hiSLm9bAf6TnE+XhJz1yD8uN+uTcPOkBHKxiYl0CIKGrFoDWGdmYP2bv2Bach+q/y4Q7bRn6al7yNIT+u4nx9rNPSPMiNiE0JeGqUDGSo2ay+LfnQ1F7ug3t4EIKj8mjwaj/37vOByEPE31N9XVPli3WZn3JKb8IL1mxoHmRZiIzIIVScvurmeU8yFsHIGx1yqkHoppV52U+z96AOtOw7eSoPheDn3jSDCqypvVVsCj0Hsjj5aU/rhHkNXzMNgPdOfQrIKk/UbvbWb430GusXNxnXW/lYU+Vn/Qfk8JxMcqDZFuQgvnlyXd1GGrSEHJQGxqBvJ9Woe/8MufzGcn1dI0T2Rz44Yv6LIC9L9QEsWSuCXNzAX27O0rQiyOuVQzaQQzaQQzaQQzZQBdn1Ct3gG4WRd5XRgWplAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset X="-5" Y="2" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Hervorgehoben'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,191.12727272727275" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" TextString="[strSection]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="bc8041c9-efca-45d8-8864-f69ea6cafdbe" CvElementArea="100, 551, 211, 46" CvTextArea="140, 564, 130, 22" CvTextArgument="[strSectionNumber]" CvType="Button" DesignTimeRectangle="142, 559, 152, 31" DesignTimeScaleFactor="1.03125" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='quickeditlink aalink' /&gt;" Guid="05a5216e-f6ac-46b3-9a7d-79d87ca7f054" ImageBase64="" InformativeScreenshot="0a6658a0fe956215654a19ec557ccd1c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="bc8041c9-efca-45d8-8864-f69ea6cafdbe" CvElementArea="315, 560, 102, 28" CvTextArea="322, 569, 84, 12" CvTextArgument="Hervorgehoben" CvType="Button" DesignTimeRectangle="317, 563, 97, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='yui_3_17_2_1_1738066932150_1561' tag='SPAN' type='' class='badge badge-pill badge-primary order-1 ' aaname='                                             Hervorgehoben                                         ' check:innerText='Hervorgehoben' /&gt;" Guid="e6b52308-40de-4fcb-9d9d-fd182cf48f99" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[strSection]" sap:VirtualizedContainerService.HintSize="953.8909090909092,1263.709090909091" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+              <Switch.Default>
+                <Sequence DisplayName="Standard" sap:VirtualizedContainerService.HintSize="467.7818181818182,90.76363636363637" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </Switch.Default>
+              <Sequence x:Key="Abschnitt 1" DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.7818181818182,166.6909090909091" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="433.74545454545455,106.47272727272728" sap2010:WorkflowViewState.IdRef="Assign_8">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[strMenuToggle]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">section-2</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+              <Sequence x:Key="Abschnitt 2" DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.7818181818182,166.6909090909091" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="433.74545454545455,106.47272727272728" sap2010:WorkflowViewState.IdRef="Assign_9">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[strMenuToggle]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">section-3</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+              <Sequence x:Key="Abschnitt 3" DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.7818181818182,166.6909090909091" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="433.74545454545455,106.47272727272728" sap2010:WorkflowViewState.IdRef="Assign_10">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[strMenuToggle]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">section-4</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+              <Sequence x:Key="Abschnitt 4" DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.7818181818182,166.6909090909091" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="433.74545454545455,106.47272727272728" sap2010:WorkflowViewState.IdRef="Assign_11">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[strMenuToggle]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">section-5</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+              <Sequence x:Key="Abschnitt 5" DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.7818181818182,169.3090909090909" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.74545454545455,109.0909090909091" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Letzter Abschnitt wurde erreicht.&quot;]" />
+              </Sequence>
+            </Switch>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Abschnitt 3'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,227.7818181818182" sap2010:WorkflowViewState.IdRef="NClick_52" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" DesignTimeRectangle="1789, 557, 39, 39" DesignTimeScaleFactor="1.03125" FullSelectorArgument="[string.Format(&quot;&lt;webctrl parentid='{0}' idx='1' /&gt;&lt;webctrl tag='A' idx='3' /&gt;&quot;, strMenuToggle)]" Guid="3f2fde54-ae6e-4af1-a125-26a0b6293090" InformativeScreenshot="74f45d30e393ef84ef594d58ffa0ec47.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <If Condition="[strMenuToggle = &quot;section-5&quot;]" sap:VirtualizedContainerService.HintSize="953.8909090909092,508.8" sap2010:WorkflowViewState.IdRef="If_6">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416.2909090909091,90.76363636363637" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416.2909090909091,278.40000000000003" sap2010:WorkflowViewState.IdRef="Sequence_50">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Hervorheben(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.2545454545455,218.1818181818182" sap2010:WorkflowViewState.IdRef="NClick_54" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="f0378c23-c234-47f2-b83c-140690a02987" ContentHash="HRKmxab0X02PDfTEQzq0LA" CvElementArea="1638, 731, 20, 20" CvTextArea="1667, 735, 85, 13" CvTextArgument="Hervorheben" CvType="RadioButton" DesignTimeRectangle="1616, 533, 210, 37" DesignTimeScaleFactor="1.03125" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='yui_3_17_2_1_1738065225759_1635' tag='A' type='' class='dropdown-item editing_highlight menu-action' aaname='                                                                  Hervorheben                         ' check:innerText='Hervorheben' /&gt;" Guid="621675ca-ace9-43fb-9731-83908d9b3c42" InformativeScreenshot="616dbf00da9fabde68a4df3e705d7a8d.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/AEmMIUVV2EGj7THxoTgNHg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Up" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,171.05454545454546" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Philipp HermannP'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,227.7818181818182" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="527eab4a-8aa9-4edb-b386-13f2dd7e27f5" ContentHash="Bac2OWs5OkmkmRq-RCQdSg" CvElementArea="1691, 166, 183, 46" CvType="InputBox" DesignTimeRectangle="1694, 170, 177, 40" DesignTimeScaleFactor="1.03125" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='action-menu-toggle-2' tag='A' type='' class='nav-link dropdown-toggle icon-no-margin' aaname='                                                          Philipp HermannP                                                                                       ' check:innerText='Philipp HermannP' /&gt;" Guid="952016fa-3b06-4819-8774-5aabb5b86d09" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALUAAAAsCAYAAAAjOvkiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEOoAABDqAYLTCpgAAAR1SURBVHhe7Zq9atxAEID9BunyCC5TuXIV3KQNwZDCKQwpU9rgItiY65xUqcJxEAhc4QcIKOA6uHPgDC5TpAhxfJc8wmZnVyvNrkb/0kpop/iwtdp/fdobrbS12WwEw0wJlpqZHCw1MzlYamZysNSMxVrysPkr/qyBf+LeAdLgHOSBvFQdQ8NSM4q1lPRhk5W4DCgDZak6h4KlDhwQklqR6wJ1jEVuljpgIIygBG0D1Em15ROWOlCahBpVgbqpNn3BUgdIF+FGGdAG1bYPWOrA6HOFdhlqxWapA6KPGLqMIWJsljoQYGeCks4HvndFWOpA8BFH5+E7vmapA2DIVdrgc7UukPpOzA4PxdYexZGYrUy+K7Ev0/YjXNbm8kyWObtS/9/Mj8TW4VLcwLnVUmxbdXVNUd/0+Lbnd8S5aeHz4TAPnw+NpVJTF12JuXchLtVxudQYS+reYanh+wxKsiHw9a1II6ltWVjqMQMfHlGCFXMrPh48FTu7WY4jKn81oC9UH7umO6nnEEqkIQoWqWr4ofMtVbtJqBOXw2VnkM+cL7xBakqt+oPqRm3rumRf5xfxeflLZfqfpMXpMr8aC1mPbjfND5hfvXSMl/CXOJ/MWZQ/35g223irxSuxc7AQK3zcQuwm23s/vi3Ekxfn4sN3O/16eS4ev16Irz/tdKCR1PqC2eGHNfERXGRX1opSy7rSNnXd5liVhbYSSWJBLGkwNaR2+pytOx4nvonMTZCkpcImbcZ5zDGeC6tePD/yOJ0Dpx+ZNk0ZNP+IVrse0akl9f06EsewYr+N7HwVabILcvP5RF/z56nYIPQjSHt2It4Rz2MNHxTxBNri4TTqQpZKjaUBlGy6PfLiOXXYxMIUYPoNbdtjkFh1E+N0hAWs8SnsuaDIzI8zxuycOfUVzAElV2U6lhpw+1eF60+p2G/ep0LPnNXb0DD8wFAXrYXUZkUyoDxZYYAiaYrO4fEV3cC21GUyVZVay4vaoeYH582ZM4UnqU348XJxm81bEbd/VUnEBgqEBlhqNT6dr3isRF0NpFZjlMd4Nc6dn5hBpYaVGdFGaMDtXx1U2IHCkDzGJ7UrbQfhR7nU8Urt3lAWXUhN9cdue3RSW+FHe9z+1eXXbzodMz6pZbm0TV2POdZSY/nKZKT6ZnDGp24eO69uz9xERF0NpcZzasbcl9TdPii2w9fr8hGGH/aWHm7flLW29HKFBqi+GYjxxWKn4F8Foq7aUktUGdSG7L8qg3+NOpW65Zbe7qn4Qpxrgq8v9gqk9g+Wn4K64EwxXb18afPSxTCCly/+Yam7h1+TDwxL3Q/8QRMzOfjTU2aStNoFaYmvXQ8DSx0IQ67WPldpgKUOiDbbe03xtY2HYakDw+dDo8+HQwxLHSA+4mvfcTSGpQ6UPlfsoVZoA0sdMH3E2EPE0C4sdeDAzkQX4QjU4XuXIw+WmlGAkE1CEigzFpkNLDVjAd9nwIdHEEZQKzikwTnI4+tbjrqw1MzkYKmZycFSM5ODpWYmxkb8B+8tCWDwRxPFAAAAAElFTkSuQmCC" InformativeScreenshot="19772ec6128bcb877093edf03f15ce1a.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/FXXIgWcsUkKIZWBVSkpqCQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="527eab4a-8aa9-4edb-b386-13f2dd7e27f5" CvElementArea="1691, 166, 183, 46" CvType="InputBox" DesignTimeRectangle="1811, 172, 36, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='P' parentid='action-menu-toggle-2' tag='SPAN' type='' class='userinitials size-35' check:innerText='P' /&gt;" Guid="6a74edb0-3b46-4169-bb23-fedc7c788321" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="953.8909090909092,220.8" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f439c651-bcc1-4527-9f88-9edbc864cc8a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="3894bc63-740b-4a64-8499-9a80196863f5" ContentHash="LQusYIHdyUGZtk0zznx1NA" CvTextArea="1719, 681, 66, 17" CvTextArgument="G Logout" CvType="Text" DesignTimeRectangle="1722, 679, 63, 20" DesignTimeScaleFactor="1.03125" FullSelectorArgument="&lt;webctrl id='actionmenuaction-16' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='actionmenuaction-16' tag='SPAN' type='' class='menu-action-text' aaname='Logout' check:innerText='Logout' /&gt;" Guid="230c0f0e-0b98-4d77-b375-1e016e5708f2" InformativeScreenshot="c280212c4e6590602aa599bfbedc99dc.png" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/dqjDumYNbEuWFQVNcYvcaw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1694, 170, 177, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='action-menu-toggle-2' tag='A' type='' class='nav-link dropdown-toggle icon-no-margin' aaname='                                                          Philipp HermannP                                                                                       ' check:innerText='Philipp HermannP' /&gt;" Guid="87d71e24-1217-495b-9eec-08f335f191ef" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1911, -9, 1938, 1051" BrowserType="Edge" ContentHash="-7xJUSL0Sk6xatJH0XLm0g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAjWSURBVHhe3ZsJbFXFGscREZegImpEND5j8D0TjVGDiNEQg4XnUwQEnqLiUqqAWBZRVFC2x1JRltayiIjPgshSsAKyWQiIAlJlLftWCi2lCzHGGGOM+fz/j3PgnnO/M/fe3i73+iW/pJ1z/nPm++6ZmW/mzm1Qm3bmzJmGoCV4CrwHloNdoAz8Cv4w/AyKwfdgIRgBOoLmpqrkMTS6MUgBM0ARoINSTX4HO8AYcAcwT0lAQ+OuB6MBP0nNmXhhIPmGvACamMfWv6ExdDwb8DXWGl4bnASDQP0FAg+/BLwJfgRaI+uCg6AraGiaVTeGB7YC7Jtao+oado1c0MI0r/YMD+GozlfvF6A1pj5ht+Dga1pbw4aKLwL/B9rDEwVOrf1AzXYJVHgZyAfaQxORcaBmgoCK6Pw3puJkYhKILwiogK99Mn3yfpiXGG9iNAg54CV6n48EZ4hexqXYDEKO9lqlyQZnrDbGregMAs7ziTjVVZf9oKlxz264kRneNiP8OzENGC8thpuY3moVJDu/gbbGTd1wAxc2tZrbl5wqk92HjsrybwokO3eVDJn+mTz5v2nywKDxkjZhlpSVl6u6GmILaGTcDTdc5KpOE8ZEZWWVlJ0ul6KTJbJ2606ZOH+5PDf+A7m770i5pmt/aZTSS85r9/xZzn8w1bl+EsHR6qtBOCt0Ne56DRdagLiWtCdKT0nehu9k0Ptz5J6XRsnlHft6HNXgPdOWrJGqqiq1zlqAewrhCRIKmTRogkCqwIFjxyUrd6X85/X3pOmjL6lOBtGm32gp2HNArbsW4VvQzrj9l6GA21hR7+SUlp2WWcvWSvtXJ8hF/35Bdc7GxQ+9KCNn50p5RaVafx0w37j+l6Ggg+8GlR37D0v/zBy5svPLqmPRwK6xZdc+tf46hF39XF6Af2aGXAyDDe4xeqo07pCmOhULLboPlE9Xf60+x+VI8UlZuekHmbV0rUxe8KW8j9li3pqNshntOF1RoWqqQQ/Xeeb86utfiOnqmXEz5MIOsb/mNjgL9J44W0rQldxnVVRWSvbiVXIvxgV2kYaK7vyUVOft6zY8Sxau3RRvF8pxA/BPwIHh7MVTmMLGfLJErohxUIuVu14cLlsLDzi5wdNjpktDTIfafRq8907ol20sCHUqFrhl7wSgZ0ihw7icPCfKAzGdpWbMdP5OefUdad13lPzr2Tfkuv8ORAP0hsUKp8Gbew5Rr0UD3863Zy10cg+/HxHgdw43MAD8xsZzsfDQMfl6W6GnLJTdB486r6nWoPqAb8OwmQvUtkbgYQZgqa8Qr+RpKUZS4y93OXz8hDR5uLfamPqCAzTTa629FgYxAPyuznOBA1K5ZbQ9XlIqlz0SOcvzc0F7bwpsgwPlg4MzMBZ9LuPnfiEPDXk3LIX2c3//sWp7LUxhAPhFpecCR2emtf5yFw5asWR9Vz+WLq9j0bNxe6Hc9NRr6j2h8O2as3JD2HNn5K1xZgJNQy5on+Z0X7/OwjwGgFvJngv7jhbJroNHPGWhcMV2Rad+aiNcmCHelz5GJs3/Eoui0rNaZpDa/aHwUw99nksFBrp2r2SoGpfcdZtUbQArGADPFEg2/LBbvvpuu6csFHaRZp2DA9C82wCnm2haltumVwZu75EiVUuYFGk6F+YSmi6AfDUAC/K/lQ+X5nvKQmEAbOkw52fbtMRFkKYj13Yf4OQhmo6s3rJN1bmMzdHfngCcAIQtgTMXrZChlmklUgD4mmo6F6bVmo60fHqIqnEpQOJkGwyHf7RI1QWwnAEIS4NZyeOjsj1lfq7qEhyAzsMmqxqXfpM/VnXk1tShqsaFu0kXWtYkTIo0XQA5DMBWX6EMnvqptOoz0lPmxxYAfsKaxmXw1Lmqjtz6vD0AHB9sS/ARWGZrugAyGACeyfFceCV7rjOQ2fqxLQBcQGkaF1sAmBZrGpdIb0CMY0BvBiBsJ2jUx4udROfYiRJPeSi2AHB/T9O4pGd+ourIP3oMlkrL9tj2fYec+V7TEk67mi6AtgxAJ1+hs/Zmrr/ncHBSEU8A0iZ8qOrItd0HWmcB7gnYkqEZeV+pOgVukzdjAJoDrozOXjxUVCxXd0m3JkO2ADwboQs8aZkFOLsUlwRnoesKdqo6lzmrwjPIAHY5+wE0/uO7KAOycmRvwBtQBa6yTINc22s6l05DJ6s6cukjfZzFlqYjXP9rOpcl67eoOoUpxn0nADxQ4LmB64Gycn1BFCkPeAJTqG2b25bOclVnywQ/Q/fUdC7cStN0CinGfScAd4GwjDCISAHoNiLLGgBujGo6wq2wnQeCu95Hy9apOkItu4im81EKGhv3nQCQqL8QjRSAx97OdLqJpiW3p72l6ly2Fu5XdWTq4tWqhnBjhCtOTedjknH9nKGQJzC1m8OIFIAub01RdS7M9jSdy7c79qg6krlopaohUQaAo/8txu1zhsImgEfNNJGHeANwW+owVeeyeedeVUeyIgRgPVaymi6EPGC89hkuRHUqJOIYMDxL1blwc1XTuTDZ0XRk5hf5qsZl9eZtqs7AT7+VcTfccJFvwWFzs5U+E2dLz7HTVfiaahqX8XPyVB1hEhW6geKHm7WazoWJkqYzzAfG2wDDDTx7G/WMkETQbjJuBhtu4jdFPHurVZLMpBsXIxtuZnoc1YCYJKwAwSdDNIOAB4/DNkyTEG74xH6SHCLCg8dapcnCT6C1cSl2g5jjQYapLNnglNfRuFJ9QyUMAg8eaw9JVOh8d2C8iNNQEYPAnaNkmB65y82f3JnW15CxQtALJPIRWg541e/z0Rge0Abw7K3WgPpkBaj93w3R8KCmgD+MZF/TGlOX8GRrOohtno/X8EByP+Dx0/oYGxj8eeBG06T6MTSgEeCIyxOYdREIOs4lbWtgWpEAhsZwpngA8FNhAqI1Ph64jcXjPLcA89QENTSQY8TjgD+54Wksz7Z7lPCT5m41c5B24NweXjIZGk5uAJybh4EcsArwl2ibwHrAn9WzfALoC9qCZqaKWrQGDf4ERm0oZYY/PLIAAAAASUVORK5CYII=" InformativeScreenshot="d20695d436476f9ed4efe1138ec8371e.jpg" Reference="MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg" Selector="&lt;html app='msedge.exe' title='Startseite | Moodle.UP' /&gt;" Url="https://moodle2.uni-potsdam.de/" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SendEmail - Workflow-Datei abrufen (SendEmail.xaml)" sap:VirtualizedContainerService.HintSize="1021.9636363636364,168.43636363636364" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="SendEmail.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="strHochgeladen">[strHochgeladen]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+  </Sequence>
+</Activity>

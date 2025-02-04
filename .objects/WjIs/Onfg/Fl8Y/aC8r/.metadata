@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Alles einklappen",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "aC8rv8kxRk2I2VH_3s5j2A",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/aC8rv8kxRk2I2VH_3s5j2A",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-30T13:19:08.3096883Z",
+  "Updated": "2025-01-30T13:19:08.3096883Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

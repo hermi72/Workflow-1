@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Speichern und zum Kurs",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gEYu4XVmyEubcVf3vbyMEg",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/gEYu4XVmyEubcVf3vbyMEg",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-23T11:36:04.5361061Z",
+  "Updated": "2025-01-23T11:36:04.5361061Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

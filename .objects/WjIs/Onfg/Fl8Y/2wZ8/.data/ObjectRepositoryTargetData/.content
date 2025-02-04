@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aSMLmXJuA0-G6mgmY-aaBw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/my" CVScreenId="01561f6c-9204-482e-ba9f-6584972f8f6c" CvTextArea="216, 206, 84, 14" CvTextArgument="Meine Kurse" CvType="Text" DesignTimeRectangle="165, 189, 157, 48" DesignTimeScaleFactor="1.1458333730697632" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='main-navigation1' tag='A' type='' class='nav-link dropdown-toggle my-auto' aaname='Meine Kurse' check:innerText='Meine Kurse' /&gt;" Guid="657f63ec-a04b-485f-af45-88993dcb7d08" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="34288b0e93c8c842c7d072b4177b2612.png" xmlns="">00Ai0GPiXI0CK68AAqCGpKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

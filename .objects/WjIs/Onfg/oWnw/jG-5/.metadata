@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Bearbeiten einschalten",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jG-5kgzR4Umo91ema896CQ",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/jG-5kgzR4Umo91ema896CQ",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/oWnwe75ftkqLhgG7TdT-vw",
+  "Created": "2025-01-27T13:52:17.6076605Z",
+  "Updated": "2025-01-27T13:52:17.6076605Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

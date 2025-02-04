@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Kurs Testkurs Robotic Process Automation",
+  "Type": "Screen",
+  "Id": "oWnwe75ftkqLhgG7TdT-vw",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/oWnwe75ftkqLhgG7TdT-vw",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Onfg73MAD0yYGHdmOyy0LA",
+  "Created": "2025-01-23T12:27:21.9249796Z",
+  "Updated": "2025-01-23T12:27:21.9249796Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

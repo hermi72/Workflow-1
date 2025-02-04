@@ -1,0 +1,14 @@
+﻿{
+  "Name": "httpsmoodle2.uni-pot…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "SLNxp3MHckGgegetuXhhUA",
+  "Reference": "MBrQMVqHJE6Mfjw8L_iFOQ/SLNxp3MHckGgegetuXhhUA",
+  "ParentRef": "MBrQMVqHJE6Mfjw8L_iFOQ/Fl8Y_3PUA02Fbw1zSBu3fg",
+  "Created": "2025-01-23T12:35:26.8328126Z",
+  "Updated": "2025-01-23T12:35:26.8328126Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

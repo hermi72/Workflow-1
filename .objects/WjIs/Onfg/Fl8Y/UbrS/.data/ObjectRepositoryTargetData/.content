@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ERLWaWzF9U2T7jBKju_X3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moodle2.uni-potsdam.de/course/view.php" CVScreenId="77b598e2-60d3-4b9a-9ab7-6d2bae2873c4" CvElementArea="84, 517, 35, 37" CvType="ArrowButton" DesignTimeRectangle="94, 527, 14, 16" DesignTimeScaleFactor="0.9166666865348816" FuzzySelectorArgument="&lt;webctrl aaname='                                                                                                                                               ' parentid='collapssesection2' tag='SPAN' type='' class='collapsed-icon icon-no-margin p-2' /&gt;" Guid="4f8dbfd8-fc5c-4d9d-a2c8-5df25ad1f0fc" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Bearbeitung von Kurs: Testkurs: Robotic Process Automation | Moodle.UP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="77b598e2-60d3-4b9a-9ab7-6d2bae2873c4" CvTextArea="129, 526, 115, 20" CvTextArgument="Abschnitt 2" CvType="Text" DesignTimeRectangle="130, 522, 135, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='             Abschnitt 2                                                    ' tag='A' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl aaname='             Abschnitt 2                                                    ' tag='A' type='' class='quickeditlink aalink' check:innerText='Abschnitt 2' /&gt;" Guid="e7750696-748c-4335-a57d-763e5c0a148b" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fb44b5904d48a02764ccc6f83e619989.png" xmlns="">0_I1PYrjjYEm3dxYAg_ZkPg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
